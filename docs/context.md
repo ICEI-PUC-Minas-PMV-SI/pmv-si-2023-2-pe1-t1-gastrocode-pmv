@@ -32,14 +32,24 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
-## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+**JUSTIFICATIVA**
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A análise do consumo de tele-entrega de alimentos demonstra a crescente dependência desse serviço entre os jovens adultos com pouco tempo disponível. Embora a tele-entrega seja conveniente, muitas vezes as opções disponíveis não priorizam a saúde e a economia pessoal, levando a escolhas menos saudáveis e mais caras. O sistema proposto a seguir oferece uma alternativa cômoda, saudável e econômica.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em resumo, a criação de um sistema web que forneça receitas saudáveis, listas de compras e opções de compra de ingredientes para jovens adultos é uma iniciativa que busca facilitar a adoção de uma alimentação balanceada mesmo em meio a uma rotina agitada. A abordagem abrange não apenas a praticidade, mas também a promoção da saúde e da educação alimentar, visando impactar positivamente a qualidade de vida desses indivíduos, além de que muito mais econômica.
+
+Atualmente, a busca por uma alimentação saudável e equilibrada preocupa cada vez mais. Para jovens adultos que precisam conciliar estudos, trabalho e responsabilidades diárias, encontrar tempo e recursos para se alimentar de forma adequada pode ser um desafio significativo para a organização da vida e das finanças pessoais. Nesse passo, propõe-se desenvolver um sistema web que ofereça receitas de preparo fácil e rápido, além de disponibilizar uma lista de compras dos itens necessários para o preparo. Entre as alternativas de mercado encontram-se fast-foods, Ifood e outros. Entretanto, esses negócios visam o lucro de seus proprietários, não alimentar adequadamente as pessoas, tanto do ponto de vista nutricional quanto financeiro.
+
+Ao desenvolver almeja-se: a oferta de receitas balanceadas nutricionalmente contribui para a promoção da saúde e bem-estar dos jovens, reduzindo os riscos de problemas de saúde associados a uma alimentação inadequada; economia de Tempo: A disponibilização de receitas de preparo rápido e fácil otimiza o tempo dos usuários, permitindo que eles adotem uma alimentação saudável mesmo com uma agenda corrida; A inclusão de listas de compras agiliza o processo de compra de ingredientes, evitando compras desnecessárias e reduzindo o desperdício de alimentos; A diversidade de receitas oferecidas pelo sistema evita a monotonia alimentar, incentivando os usuários a experimentar novos pratos e ingredientes.; A plataforma proporciona acesso fácil a receitas e informações nutricionais, contribuindo para a educação alimentar dos usuários; Por fim, ao capacitar os jovens adultos a preparar suas próprias refeições saudáveis, o sistema promove maior autonomia pessoal.
+
+
+
+**Material de Apoio**:
+https://www.ibge.gov.br/
+https://www.poder360.com.br/economia/gastos-com-comida-representam-ate-64-do-salario-minimo/
+https://www.asbran.org.br/noticias/brasileiro-se-alimenta-mal-com-muito-carboidrato-e-gordura-diz-ibge
+https://agenciabrasil.ebc.com.br/educacao/noticia/2020-07/necessidade-de-trabalhar-e-principal-motivo-para-abandonar-escola
 
 ## Público-Alvo
 
