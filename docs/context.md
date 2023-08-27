@@ -43,13 +43,13 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Atualmente a população de forma geral estão com necessidades cada vez mais direcionadas a qualidade de vida. Além da alimentação mais saudável procuram também soluções práticas e inovando a forma de realizar receitas fácies ajudando a “economizar” o seu tempo. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+A intenção do nosso projeto é atender melhor pessoas adultas e adolescentes que moram sozinhas, estudam e trabalham onde devido a rotina não possuem tempo hábil para realizar uma alimentação saudável.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O projeto vai englobar várias receitas práticas visando alimentos denominados saudáveis, naturais, menos processados, sem adição de aditivos, entre outros, para atender o número máximo de pessoas de diferentes gostos e diferentes classes sociais onde será de fácil acesso.
+
+> **Materia de Apoio**:
+> -  (https://revistapegn.globo.com/Empreendedorismo/noticia/2016/05/5-dicas-para-ficar-em-forma-mesmo-sem-ter-tempo.htm)
+> - (https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)](http://www.praticosaudavel.com.br/como-ter-uma-alimentacao-saudavel-sem-tempo/)
+
