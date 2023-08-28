@@ -1,13 +1,15 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+Atualmente os jovens adultos enfrentam uma carga diária de atribuições onde é necessário um verdadeiro malabarismo para conciliar trabalho, estudo, compromissos familiares e sociais, entre outras diversas responsabilidade. Sendo assim, percebe-se que, diante do pouco tempo disponível, torna-se cada vez mais difícil dedicar tempo ao preparo de alimentos saudáveis e nutritivos, que são inclusive as fontes de energia necessária para que seja possível sustentar-se diante de tantas atribuições. Assim, em grande parte das vezes, muitos optam por comidas rápidas e processadas, de alto custo e com baixo ou nenhum teor nutricional.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Em um artigo publicado pela nutricionista Raquel Costa Ferreira, um dos pontos destacados, é a falta de planejamento que impacta diretamente na rotina de se ter uma alimentação saudável. Entre os principais fatores que possibilitam a organização dessa rotina, ela destaca a necessidade de se fazer uma lista de compras antes de ir ao supermercado ou feira, que contenha alimentos saudáveis e possa direcionar as compras para que seja considerado somente o necessário para se manter uma alimentação saudável.
+
+Considerando os pontos citados, nossa proposta de projeto é a criação de uma Aplicação Web, o Gastro Code, direcionada especificamente para atender as demandas dos jovens adultos que buscam uma alimentação prática e saudável e que se encaixe em suas rotinas diárias. As receitas conterão a lista de ingredientes necessários para preparado, que auxiliarão o usuário na definição da lista de compras, com base na receita escolhida. Além disso, a aplicação também contará com uma funcionalidade onde listará estabelecimentos próximos (supermercados e hortifruti) com serviço de delivery, possibilitando o acesso aos ingredientes de forma rápida e conveniente. O Gastro Code simplificará a vida dos usuários e possibilitará um estilo de vida mais saudável e equilibrado. 
 
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+**Material de Apoio**:
+https://saude.mpu.mp.br/noticias/como-conciliar-a-falta-de-tempo-e-a-necessidade-de-comer-melhor
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
