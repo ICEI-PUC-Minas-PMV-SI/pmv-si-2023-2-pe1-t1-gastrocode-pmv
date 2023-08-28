@@ -13,7 +13,7 @@ https://saude.mpu.mp.br/noticias/como-conciliar-a-falta-de-tempo-e-a-necessidade
 
 ## Problema
 
-Em um mundo cada vez mais acelerado e com múltiplas demandas, a busca por uma alimentação saudável muitas vezes cede espaço à conveniência. Indivíduos que desejam adotar uma dieta equilibrada muitas vezes se veem diante de desafios para encontrar receitas que sejam não apenas nutricionalmente ricas, mas também práticas e rápidas de preparar. 
+Em um mundo cada vez mais acelerado e com múltiplas demandas, a busca por uma alimentação saudável muitas vezes cede espaço à conveniência. Indivíduos que desejam adotar uma dieta equilibrada muitas vezes se veem diante de desafios para encontrar receitas que sejam não apenas nutricionalmente ricas, mas também práticas e rápidas de preparar [2].
 
 A falta de acesso a receitas práticas que mantenham a qualidade nutricional pode resultar em escolhas alimentares inadequadas, impactando negativamente a saúde a longo prazo. 
 
