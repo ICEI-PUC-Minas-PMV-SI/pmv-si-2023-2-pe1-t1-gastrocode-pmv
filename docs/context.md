@@ -27,12 +27,15 @@ Diante dessa realidade, surge a necessidade de abordar a lacuna entre a aspiraç
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo geral é proporcionar ao usuário o acesso a uma variedade de receitas saudáveis e de preparo descomplicado promovendo uma alimentação equilibrada sem deixar de valorizar o sabor dos alimentos.
+
+### Objetivos Específicos
+
+* Oferecer um catálogo diversificado de receitas práticas, fáceis e saborosas;
+* Facilitar a busca de receitas com base no tempo de preparo e ingredientes, visando antender o tempo disponível e a preferência individual de cada usuário;
+* Incorporar recursos interativos, como listas de compras geradas a partir da receita selecionada, auxiliando assim no planejamento e organização na rotina do usuário.
 
 
 **JUSTIFICATIVA**
