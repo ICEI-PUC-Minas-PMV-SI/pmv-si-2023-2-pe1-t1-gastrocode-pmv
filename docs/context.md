@@ -49,13 +49,13 @@ https://agenciabrasil.ebc.com.br/educacao/noticia/2020-07/necessidade-de-trabalh
 
 ## Público-Alvo
 
-Atualmente a população de forma geral estão com necessidades cada vez mais direcionadas a qualidade de vida. Além da alimentação mais saudável procuram também soluções práticas e inovando a forma de realizar receitas fácies ajudando a “economizar” o seu tempo. 
+O público alvo do projeto GastroCode são os jovens adultos que enfrentam um cotidiano repleto de responsabilidades, desafios e demandas constantes. Essa faixa etária, caracterizada por indivíduos entre 18 e 30 anos com necessidades cada vez mais direcionadas à qualidade de vida.
 
-A intenção do nosso projeto é atender melhor pessoas adultas e adolescentes que moram sozinhas, estudam e trabalham onde devido a rotina não possuem tempo hábil para realizar uma alimentação saudável.
+Também é importante destacar que indivíduos de todas as idades que possuem pouca ou nenhuma experiência na cozinha podem se beneficiar do projeto GastroCode. A abordagem detalhada e as instruções passo a passo auxiliam na construção de habilidades culinárias, promovendo a confiança na preparação de refeições saudáveis.
 
-O projeto vai englobar várias receitas práticas visando alimentos denominados saudáveis, naturais, menos processados, sem adição de aditivos, entre outros, para atender o número máximo de pessoas de diferentes gostos e diferentes classes sociais onde será de fácil acesso.
+**Materia de Apoio**:
+(https://revistapegn.globo.com/Empreendedorismo/noticia/2016/05/5-dicas-para-ficar-em-forma-mesmo-sem-ter-tempo.htm)
+(https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)](http://www.praticosaudavel.com.br/como-ter-uma-alimentacao-saudavel-sem-tempo/)
 
-> **Materia de Apoio**:
-> -  (https://revistapegn.globo.com/Empreendedorismo/noticia/2016/05/5-dicas-para-ficar-em-forma-mesmo-sem-ter-tempo.htm)
-> - (https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)](http://www.praticosaudavel.com.br/como-ter-uma-alimentacao-saudavel-sem-tempo/)
+
 
