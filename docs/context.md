@@ -13,16 +13,10 @@ https://saude.mpu.mp.br/noticias/como-conciliar-a-falta-de-tempo-e-a-necessidade
 
 ## Problema
 
-Em um mundo cada vez mais acelerado e com múltiplas demandas, a busca por uma alimentação saudável muitas vezes cede espaço à conveniência. Indivíduos que desejam adotar uma dieta equilibrada muitas vezes se veem diante de desafios para encontrar receitas que sejam não apenas nutricionalmente ricas, mas também práticas e rápidas de preparar [2].
+Em um mundo cada vez mais acelerado e com múltiplas demandas, a busca por uma alimentação saudável na maioria dos casos cede espaço à conveniência. Indivíduos que desejam adotar uma dieta equilibrada muitas vezes se veem diante de desafios para encontrar receitas que sejam não apenas nutricionalmente ricas, mas também práticas e rápidas de preparar [2].
 
-A falta de acesso a receitas práticas que mantenham a qualidade nutricional pode resultar em escolhas alimentares inadequadas, impactando negativamente a saúde a longo prazo. 
 
-Muitas pessoas, ao se depararem com a dificuldade de encontrar opções culinárias que se encaixem em suas rotinas agitadas, recorrem a alternativas menos saudáveis, além disso, a falta de familiaridade com técnicas culinárias e a complexidade de algumas receitas podem intimidar aqueles que desejam melhorar seus hábitos alimentares.
-
-Diante dessa realidade, surge a necessidade de abordar a lacuna entre a aspiração por uma alimentação saudável e as limitações de tempo e conhecimento culinário.
-
-> **Materia de Apoio**:
-> - [APRENDA COMO LIDAR COM OS DESAFIOS DA ALIMENTAÇÃO SAUDÁVEL - Dr Rávila Graziany - Nutricionista Esportiva](https://www.youtube.com/watch?v=PctgS-ObOrc)
+Muitos jovens, ao se depararem com a dificuldade de encontrar opções culinárias que se encaixem em suas rotinas agitadas, recorrem a alternativas menos saudáveis, além disso, a falta de familiaridade com técnicas culinárias e a complexidade de algumas receitas podem intimidar aqueles que desejam melhorar seus hábitos alimentares, visto que a falta de acesso a receitas práticas que mantenham a qualidade nutricional pode resultar em escolhas alimentares inadequadas, impactando negativamente a saúde a médio e longo prazo.
 
 
 ## Objetivos
