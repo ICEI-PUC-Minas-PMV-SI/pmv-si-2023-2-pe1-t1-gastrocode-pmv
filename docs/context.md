@@ -6,6 +6,7 @@ A nutricionista Raquel Costa Ferreira destaca em seu artigo [1] que a falta de p
 
 Nesse contexto, o projeto GastroCode surge como uma resposta a essa lacuna entre a intenção e a ação. Através da oferta de uma variedade de receitas cuidadosamente selecionadas, prontas para atender à necessidade do jovem contemporâneo.
 
+
 ## Problema
 
 Em um mundo cada vez mais acelerado e com múltiplas demandas, a busca por uma alimentação saudável na maioria dos casos cede espaço à conveniência. Indivíduos que desejam adotar uma dieta equilibrada muitas vezes se veem diante de desafios para encontrar receitas que sejam não apenas nutricionalmente ricas, mas também práticas e rápidas de preparar [2].
@@ -18,13 +19,14 @@ Muitos jovens, ao se depararem com a dificuldade de encontrar opções culinári
 
 ### Objetivo Geral
 
-O objetivo geral é proporcionar ao usuário o acesso a uma variedade de receitas saudáveis e de preparo descomplicado promovendo uma alimentação equilibrada sem deixar de valorizar o sabor dos alimentos.
+Em meio a esses desafios, a tecnologia emerge como uma aliada promissora na resolução do problema da alimentação saudável em face da vida moderna. O projeto GastroCode não apenas reconhece as barreiras enfrentadas pelos jovens que buscam opções culinárias saudáveis e convenientes, mas também utiliza da tecnologia para superar essas barreiras. Ao disponibilizar um repositório diversificado de receitas, acompanhadas de instruções detalhadas e intuitivas, a aplicação visa capacitar os usuários a prepararem refeições nutritivas de maneira descomplicada, independentemente de sua experiência na cozinha.
 
 ### Objetivos Específicos
 
 * Oferecer um catálogo diversificado de receitas práticas, fáceis e saborosas;
-* Facilitar a busca de receitas com base no tempo de preparo e ingredientes, visando antender o tempo disponível e a preferência individual de cada usuário;
-* Incorporar recursos interativos, como listas de compras geradas a partir da receita selecionada, auxiliando assim no planejamento e organização na rotina do usuário.
+* Facilitar a busca de receitas com base no tempo de preparo e ingredientes, visando atender o tempo disponível e a preferência individual de cada usuário;
+* Criar um espaço interativo dentro do projeto GastroCode onde os usuários possam compartilhar suas experiências, dúvidas, adaptações e até mesmo suas próprias receitas saudáveis, promovendo a colaboração e o sentimento de comunidade;
+* Incorporar recursos interativos, como listas de compras geradas a partir da receita selecionada, auxiliando assim no planejamento e organização na rotina do usuário.
 
 
 **JUSTIFICATIVA**
