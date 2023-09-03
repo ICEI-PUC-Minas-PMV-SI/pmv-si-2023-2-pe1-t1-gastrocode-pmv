@@ -1,15 +1,10 @@
 # Introdução
 
-Atualmente os jovens adultos enfrentam uma carga diária de atribuições onde é necessário um verdadeiro malabarismo para conciliar trabalho, estudo, compromissos familiares e sociais, entre outras diversas responsabilidade. Sendo assim, percebe-se que, diante do pouco tempo disponível, torna-se cada vez mais difícil dedicar tempo ao preparo de alimentos saudáveis e nutritivos, que são inclusive as fontes de energia necessária para que seja possível sustentar-se diante de tantas atribuições. Assim, em grande parte das vezes, muitos optam por comidas rápidas e processadas, de alto custo e com baixo ou nenhum teor nutricional.
+Os jovens adultos enfrentam em seu cotidiano uma carga de atribuições onde é necessário um verdadeiro malabarismo para conciliar trabalho, estudo, compromissos familiares e sociais, entre outras diversas responsabilidades. Sendo assim, percebe-se que diante de tão pouco tempo disponível surge a necessidade de conciliar refeições nutricionalmente equilibradas com a demanda por praticidade e simplicidade no preparo.
 
-Em um artigo publicado pela nutricionista Raquel Costa Ferreira, um dos pontos destacados, é a falta de planejamento que impacta diretamente na rotina de se ter uma alimentação saudável. Entre os principais fatores que possibilitam a organização dessa rotina, ela destaca a necessidade de se fazer uma lista de compras antes de ir ao supermercado ou feira, que contenha alimentos saudáveis e possa direcionar as compras para que seja considerado somente o necessário para se manter uma alimentação saudável.
+A nutricionista Raquel Costa Ferreira destaca em seu artigo [1] que a falta de planejamento impacta diretamente na rotina de uma alimentação saudável, lançando um novo olhar sobre a interseção entre nutrição e praticidade. 
 
-Considerando os pontos citados, nossa proposta de projeto é a criação de uma Aplicação Web, o Gastro Code, direcionada especificamente para atender as demandas dos jovens adultos que buscam uma alimentação prática e saudável e que se encaixe em suas rotinas diárias. As receitas conterão a lista de ingredientes necessários para preparado, que auxiliarão o usuário na definição da lista de compras, com base na receita escolhida. Além disso, a aplicação também contará com uma funcionalidade onde listará estabelecimentos próximos (supermercados e hortifruti) com serviço de delivery, possibilitando o acesso aos ingredientes de forma rápida e conveniente. O Gastro Code simplificará a vida dos usuários e possibilitará um estilo de vida mais saudável e equilibrado. 
-
-
-**Material de Apoio**:
-https://saude.mpu.mp.br/noticias/como-conciliar-a-falta-de-tempo-e-a-necessidade-de-comer-melhor
-
+Nesse contexto, o projeto GastroCode surge como uma resposta a essa lacuna entre a intenção e a ação. Através da oferta de uma variedade de receitas cuidadosamente selecionadas, prontas para atender à necessidade do jovem contemporâneo.
 
 ## Problema
 
