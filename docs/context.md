@@ -29,7 +29,7 @@ Em meio a esses desafios, a tecnologia emerge como uma aliada promissora na reso
 * Incorporar recursos interativos, como listas de compras geradas a partir da receita selecionada, auxiliando assim no planejamento e organização na rotina do usuário.
 
 
-**JUSTIFICATIVA**
+##JUSTIFICATIVA
 
 A análise do consumo de tele-entrega de alimentos demonstra a crescente dependência desse serviço entre os jovens adultos com pouco tempo disponível. Embora a tele-entrega seja conveniente, muitas vezes as opções disponíveis não priorizam a saúde e a economia pessoal, levando a escolhas menos saudáveis e mais caras. O sistema proposto a seguir oferece uma alternativa cômoda, saudável e econômica.
 
