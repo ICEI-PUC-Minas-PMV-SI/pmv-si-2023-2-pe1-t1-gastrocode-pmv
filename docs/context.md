@@ -29,7 +29,7 @@ Em meio a esses desafios, a tecnologia emerge como uma aliada promissora na reso
 * Incorporar recursos interativos, como listas de compras geradas a partir da receita selecionada, auxiliando assim no planejamento e organização na rotina do usuário.
 
 
-##JUSTIFICATIVA
+## JUSTIFICATIVA
 
 A análise do consumo de tele-entrega de alimentos demonstra a crescente dependência desse serviço entre os jovens adultos com pouco tempo disponível. Embora a tele-entrega seja conveniente, muitas vezes as opções disponíveis não priorizam a saúde e a economia pessoal, levando a escolhas menos saudáveis e mais caras. O sistema proposto a seguir oferece uma alternativa cômoda, saudável e econômica.
 
@@ -53,9 +53,6 @@ O público alvo do projeto GastroCode são os jovens adultos que enfrentam um co
 
 Também é importante destacar que indivíduos de todas as idades que possuem pouca ou nenhuma experiência na cozinha podem se beneficiar do projeto GastroCode. A abordagem detalhada e as instruções passo a passo auxiliam na construção de habilidades culinárias, promovendo a confiança na preparação de refeições saudáveis.
 
-**Materia de Apoio**:
-(https://revistapegn.globo.com/Empreendedorismo/noticia/2016/05/5-dicas-para-ficar-em-forma-mesmo-sem-ter-tempo.htm)
-(https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)](http://www.praticosaudavel.com.br/como-ter-uma-alimentacao-saudavel-sem-tempo/)
 
 
 
