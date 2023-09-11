@@ -16,9 +16,9 @@ Eduardo é um jovem adulto de 25 anos, solteiro, recém formado e que foi contra
 | EU COMO | QUERO/PRECISO | PARA |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Preciso de receitas rápidas e saudáveis            | Para manter uma alimentação saudável |
-|Usuário do sistema      | Preciso de uma lista dos itens necessários para o preparo das receitas                 | Afim de mr organizar para obtê-los |
-|Usuário do sistema  | Quero localizar uma receita a partir de um alimento específico que tenha disponível            | Para que possa aproveitá-lo.               |
-|Administrador       | Preciso incluir as receitas na aplicação                 | Permitindo o acesso pelo usuário. |
+|Usuário do sistema      | Preciso de uma lista dos itens necessários para o preparo das receitas                 | Afim de me organizar para obtê-los |
+|Usuário do sistema  | Quero localizar uma receita a partir de um alimento específico que tenha disponível            | Para que possa aproveitá-lo               |
+|Administrador       | Preciso incluir as receitas na aplicação                 | Permitindo o acesso pelo usuário |
 |Administrador       | Preciso listar os itens relativos ao preparo dos alimentos                 | Para vincular as suas receitas |
 
 ## Requisitos
