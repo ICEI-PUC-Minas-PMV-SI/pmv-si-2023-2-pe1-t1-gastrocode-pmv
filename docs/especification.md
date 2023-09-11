@@ -1,9 +1,3 @@
-# Especificações do Projeto
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
 Eduardo é um jovem adulto de 25 anos, solteiro, recém formado e que foi contratado recentemente por uma grande empresa. Deseja iniciar uma pós graduação para alavancar seus conhecimentos e carreira. Mora sozinho e gosta de preparar sua alimentação, porém atualmente enfrenta o desafio de manter uma alimentação saudável para manter sua saúde e forma física, mas, devido à alta demanda de atividades em seu dia a dia, tem pouco tempo disponível para dedicar-se aos preparos.
@@ -15,11 +9,11 @@ Eduardo é um jovem adulto de 25 anos, solteiro, recém formado e que foi contra
 
 | EU COMO | QUERO/PRECISO | PARA |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Preciso de receitas rápidas e saudáveis            | Para manter uma alimentação saudável |
-|Usuário do sistema      | Preciso de uma lista dos itens necessários para o preparo das receitas                 | Afim de me organizar para obtê-los |
-|Usuário do sistema  | Quero localizar uma receita a partir de um alimento específico que tenha disponível            | Para que possa aproveitá-lo               |
-|Administrador       | Preciso incluir as receitas na aplicação                 | Permitindo o acesso pelo usuário |
-|Administrador       | Preciso listar os itens relativos ao preparo dos alimentos                 | Para vincular as suas receitas |
+|Usuário do sistema  | Preciso de receitas rápidas e saudáveis                                             | Para manter uma alimentação saudável |
+|Usuário do sistema  | Preciso de uma lista dos itens necessários para o preparo das receitas              | Afim de me organizar para obtê-los   |
+|Usuário do sistema  | Quero localizar uma receita a partir de um alimento específico que tenha disponível | Para que possa aproveitá-lo          |
+|Administrador       | Preciso incluir as receitas na aplicação                                            | Permitindo o acesso pelo usuário     |
+|Administrador       | Preciso listar os itens relativos ao preparo dos alimentos                          | Para vincular as suas receitas       |
 
 ## Requisitos
 
@@ -29,12 +23,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário consulte as receitas cadastradas | ALTA | |
-|RF-002| Permitir que o usuário pesquise receitas por alimentos ou nome dos pratos | ALTA | |
-|RF-003| Exibir informações detalhadas para cada receita  | ALTA | |
-|RF-004| Possibilitar o compartilhamento de receitas pelos usuários  | MÉDIA | |
-|RF-005| Gerar listas de compras a partir das receitas selecionadas  | MÉDIA | |
-|RF-006| Criar um fórum ou espaço de discussão para os usuários  | BAIXA | |
+|RF-001| Permitir que o usuário consulte as receitas cadastradas                   | ALTA  | |
+|RF-002| Permitir que o usuário pesquise receitas por alimentos ou nome dos pratos | ALTA  | |
+|RF-003| Exibir informações detalhadas para cada receita                           | ALTA  | |
+|RF-004| Possibilitar o compartilhamento de receitas pelos usuários                | MÉDIA | |
+|RF-005| Gerar listas de compras a partir das receitas selecionadas                | MÉDIA | |
+|RF-006| Criar um fórum ou espaço de discussão para os usuários                    | BAIXA | |
 
 
 ### Requisitos não Funcionais
@@ -42,24 +36,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
-|RNF-002| O sistema eve ser compatível com navegadores modernos |  ALTA | 
-|RNF-003| Fornecer suporte de dúvidas através da aba de ajuda |  ALTA | 
-
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-002| O sistema deve ser compatível com navegadores modernos            | ALTA | 
+|RNF-003| Fornecer suporte de dúvidas através da aba de ajuda               | ALTA | 
 
 ## Restrições
 
