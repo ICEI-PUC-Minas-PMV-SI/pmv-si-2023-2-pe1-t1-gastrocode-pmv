@@ -9,11 +9,11 @@ Eduardo é um jovem adulto de 25 anos, solteiro, recém formado e que foi contra
 
 | EU COMO | QUERO/PRECISO | PARA |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Preciso de receitas rápidas e saudáveis                                             | Para manter uma alimentação saudável |
-|Usuário do sistema  | Preciso de uma lista dos itens necessários para o preparo das receitas              | Afim de me organizar para obtê-los   |
-|Usuário do sistema  | Quero localizar uma receita a partir de um alimento específico que tenha disponível | Para que possa aproveitá-lo          |
-|Administrador       | Preciso incluir as receitas na aplicação                                            | Permitindo o acesso pelo usuário     |
-|Administrador       | Preciso listar os itens relativos ao preparo dos alimentos                          | Para vincular as suas receitas       |
+|Eduardo | Preciso de receitas saudáveis                                                       | Para manter uma alimentação saudável e equilibrada                           |
+|Eduardo | Preciso de um acesso rápido as minhas receitas favoritas                            | Para economizar tempo na busca pelos pratos e agilizar o processo de preparo |
+|Eduardo | Preciso de uma lista dos itens necessários para o preparo das receitas              | Afim de me organizar para obtê-los                                           |
+|Eduardo | Preciso de receitas baratas                                                         | Para não comprometer minha situação financeira                               |
+|Eduardo | Quero localizar uma receita a partir de um alimento específico que tenha disponível | Para que possa aproveitá-lo                                                  |
 
 ## Requisitos
 
@@ -23,12 +23,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário consulte as receitas cadastradas                   | ALTA  | |
-|RF-002| Permitir que o usuário pesquise receitas por alimentos ou nome dos pratos | ALTA  | |
-|RF-003| Exibir informações detalhadas para cada receita                           | ALTA  | |
-|RF-004| Possibilitar o compartilhamento de receitas pelos usuários                | MÉDIA | |
-|RF-005| Gerar listas de compras a partir das receitas selecionadas                | MÉDIA | |
-|RF-006| Criar um fórum ou espaço de discussão para os usuários                    | BAIXA | |
+|RF-001| Permitir que o usuário consulte as receitas cadastradas no site                                             | ALTA  | |
+|RF-002| Permitir que o usuário pesquise receitas por alimentos ou nome dos pratos                                   | ALTA  | |
+|RF-003| Permitir que o usuário consulte as receitas favoritas astravés da aba personalizada "Meu livro de receitas" | ALTA  | |
+|RF-004| Exibir informações nutricionais de cada receita                                                             | ALTA  | |
+|RF-005| Exibir indicativos de custo de preparo para cada receita (Barato, Médio, Caro)                              | ALTA  | |
+|RF-006| Possibilitar o compartilhamento de receitas pelos usuários                                                  | MÉDIA | |
+|RF-007| Gerar listas de compras a partir das receitas selecionadas                                                  | MÉDIA | |
+|RF-008| Criar um fórum ou espaço de discussão para os usuários                                                      | BAIXA | |
 
 
 ### Requisitos não Funcionais
