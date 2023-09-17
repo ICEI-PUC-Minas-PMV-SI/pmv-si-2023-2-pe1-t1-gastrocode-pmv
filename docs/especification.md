@@ -13,7 +13,7 @@ Eduardo é um jovem adulto de 25 anos, solteiro, recém formado e que foi contra
 |Eduardo | Preciso de um acesso rápido as minhas receitas favoritas                            | Para economizar tempo na busca pelos pratos e agilizar o processo de preparo |
 |Eduardo | Preciso de uma lista dos itens necessários para o preparo das receitas              | Afim de me organizar para obtê-los                                           |
 |Eduardo | Preciso de receitas baratas                                                         | Para não comprometer minha situação financeira                               |
-|Eduardo | Quero localizar uma receita a partir de um alimento específico que tenha disponível | Para que possa aproveitá-lo                                                  |
+|Eduardo | Quero localizar uma receita a partir de um alimento específico                      | Para que possa preparar pratos com ingredientes que possuo em casa           |
 
 ## Requisitos
 
