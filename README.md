@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Brendeo Amorim Morais
 * Gregory Stevao Amilar Costa
 * Leonardo Henrique Soares dos Reis
-* Rudolf Fischer Gunther Receitas
+* Rudolf Fischer Gunther
 * Andressa Sodré Moraes
 * Viviane Aparecida Campos de Oliveira Pertence
 
