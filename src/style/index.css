@@ -1,0 +1,81 @@
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(253, 215, 145);
+    color: black;
+    box-shadow: 3px 0 5px gray;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 20%;
+}
+
+.gastrocode-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-title { 
+    user-select: none;
+}
+
+.header-navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-list-item {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+.navbar-list-item:hover {
+    color: red;
+}
+
+.navbar-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.main {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(253, 215, 145);
+    color: black;
+    user-select: none;
+    font-weight: bold;
+}
