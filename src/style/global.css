@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf) format('truetype'), url(../fonts/Montserrat-Italic-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;

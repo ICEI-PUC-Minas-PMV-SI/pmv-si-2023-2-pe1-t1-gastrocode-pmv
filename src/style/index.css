@@ -27,6 +27,7 @@
 
 .header-title { 
     user-select: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-navbar-list {
@@ -40,6 +41,7 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-list-item:hover {
