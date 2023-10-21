@@ -1,6 +1,6 @@
 .header {
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,44 +30,77 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.header-navbar-list {
+/* .header-navbar-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-}
+} */
 
-.navbar-list-item {
+/* .navbar-list-item {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
-.navbar-list-item:hover {
+/* .navbar-list-item:hover {
     color: red;
-}
+} */
 
-.navbar-user {
+/* .navbar-user {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1rem;
     cursor: pointer;
-}
+} */
 
-.user-icon {
+/* .user-icon {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-}
+} */
 
 .main {
+    display: flex;
     background-color: aliceblue;
-    height: 100vh;
+    justify-content: space-between;
 }
 
-.footer {
+.logo-container {
+    width: 40%;
+}
+
+.login-img {
+    width: 400px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* .footer {
     position: fixed;
     bottom: 0;
     display: flex;
@@ -80,4 +113,4 @@
     color: black;
     user-select: none;
     font-weight: bold;
-}
+}  */
