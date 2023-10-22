@@ -1,3 +1,14 @@
+.navbar-list-item {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-list-item:hover {
+    color: red;
+}
+
 .login-main {
     width: 100%;
     height: calc(100vh - 80px);
@@ -110,6 +121,13 @@
 }
 
 .login-option {
-    color: rgb(0, 29, 98);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-option:hover {
+    color: rgb(94, 194, 227);
 }
 
