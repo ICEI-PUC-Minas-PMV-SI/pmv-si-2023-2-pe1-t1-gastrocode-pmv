@@ -1,0 +1,115 @@
+.login-main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    background-image: url("../images/gastroCode-login-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.login-form-container{
+    margin: 20vh auto;
+    width: 25rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: 3px solid black;
+    backdrop-filter: blur(15px);
+}
+
+.login-form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.login-title {
+    text-align: center;
+    margin: 2rem 0;
+    font-family: Ephesis, sans-serif;
+    font-weight: 100;
+    font-size: 2.2rem;
+    user-select: none;
+}
+
+.login-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-input {
+    width: 100%;
+    border: solid black;
+    border-width: 0 0 1px 0;
+    outline: none;
+    background-color: rgb(0, 0, 0, 0);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.login-input::placeholder {
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.login-input:focus::placeholder {
+    color: rgb(0, 0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.login-svg {
+    position: relative;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    fill: black;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #4dad67);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #4dad67);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    box-shadow: 3px 3px 7px gray;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    color: black;
+    background-size: 200% auto;
+}
+
+.login-button:hover {
+    box-shadow: none;
+}
+
+.login-option-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    text-align: end;
+    cursor: pointer;
+}
+
+.login-option {
+    color: rgb(0, 29, 98);
+}
+
