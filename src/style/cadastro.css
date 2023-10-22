@@ -4,12 +4,11 @@
     display: flex;
     background-color: aliceblue;
     justify-content: space-between;
-    background-color: rgb(20, 20, 20);;
+    background-color: rgb(20, 20, 20);
 }
 
 .cadastro-svg-container {
     width: 60%;
-    /* height: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,10 +20,12 @@
     object-fit: cover;
 }
 
-.cadastro-form-container{
-    margin: 10vh auto;
+.cadastro-form-container {
     width: 30rem;
+    /* height: calc(100vh - 80px); */
+    margin: auto;
     border-radius: 15px;
+    padding: 2rem;
 }
 
 .cadastro-form {
@@ -35,7 +36,6 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 2rem;
 }
 
 .cadastro-title {
@@ -57,16 +57,17 @@
 
 .cadastro-input {
     width: 100%;
-    border: 1px solid rgb(253, 215, 145);;
+    border: 1px solid rgb(253, 215, 145);
     border-width: 0 0 1px 0;
     outline: none;
     background-color: rgb(0, 0, 0, 0);
     font-size: 1.2rem;
     padding: 0.5rem;
+    color: white;
 }
 
 .cadastro-input::placeholder {
-    color: white;
+    color: rgb(163, 163, 163);
     font-size: 1.1rem;
     letter-spacing: 2px;
 }
@@ -110,4 +111,53 @@
 
 .cadastro-option:hover {
     color: rgb(255, 231, 185);
+}
+
+@media screen and (max-width: 650px) {
+    .cadastro-header {
+        width: 100%;
+    }
+    
+    .cadastro-navbar {
+        display: none;
+    }
+    
+    .cadastro-logo-container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cadastro-svg-container {
+        display: none;
+    }
+
+    .cadastro-form-container {
+        margin: 2rem auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .cadastro-form-container {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-height: 950px) {
+    .cadastro-form-container {
+        margin: 0 auto;
+    }
+
+    .cadastro-form {
+        padding: 0 0 1rem 0;
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-height: 820px) {    
+    .cadastro-main {
+        overflow: auto;
+    }
 }
