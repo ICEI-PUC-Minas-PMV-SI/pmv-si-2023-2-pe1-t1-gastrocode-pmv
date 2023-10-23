@@ -10,6 +10,12 @@
     box-shadow: 3px 0 5px gray;
 }
 
+.content-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -60,9 +66,23 @@
     border-radius: 50%;
 }
 
+.logout-svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.logout-svg:hover {
+    fill: red;
+}
+
+.content-main {
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
 .footer {
-    position: fixed;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,3 +94,13 @@
     user-select: none;
     font-weight: bold;
 } 
+
+.page-title-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.page-title {
+    font-family: Ephesis, sans-serif;
+    font-size: 3rem;
+}
