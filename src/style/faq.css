@@ -1,0 +1,21 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 18px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
