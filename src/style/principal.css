@@ -20,28 +20,79 @@
 
 .receitas-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     gap: 2rem;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .receita-item-container {
-    display: felx;
+    display: flex;
     flex-direction: column;
 }
 
 .receita-item-imagem {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
-.receita-item-nome {
+.receita-nome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 1.2rem;
     padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.receita-item-nome {
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+.receita-item-button {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.5s;
+    user-select: none;
+}
+
+.receita-item-button:hover {
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width:1160px) {
+    .receitas-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .receita-item-imagem {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .receitas-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:650px) {
+    .receitas-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .receita-item-imagem {
+        width: 400px;
+        height: 400px;
+    }
 }
