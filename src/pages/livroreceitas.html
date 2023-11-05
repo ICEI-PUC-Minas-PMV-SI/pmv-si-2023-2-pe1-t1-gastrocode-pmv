@@ -31,12 +31,19 @@
         </nav>
     </header>
 
-    <main class="main">
-        <section>
-            <nav>
-                <h1 class="section-title">Meu Livro de Receitas</h1>
-            </nav>
+    <main class="main content-main">
+        <div class="page-title-container">
+            <h1 class="page-title">Meu Livro de Receitas</h1>
+        </div>
+
+        <section class="pesquisa-container">
+            <input class="pesquisa-input" type="search" placeholder="Nome da receita">
         </section>
+
+        <section class="receitas-container" id="receitaContainer">
+            <script type="module" src="../js/card-receitas.js"></script>
+        </section>
+
     </main>
 
     <footer class="footer">
