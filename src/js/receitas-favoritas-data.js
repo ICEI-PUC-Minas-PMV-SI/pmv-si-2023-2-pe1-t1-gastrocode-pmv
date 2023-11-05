@@ -2,7 +2,7 @@ const receitasFavoritas= [
     {
         id: 0,
         nome: 'Receita teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -16,7 +16,7 @@ const receitasFavoritas= [
     {
         id: 1,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -30,7 +30,7 @@ const receitasFavoritas= [
     {
         id: 2,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -44,7 +44,7 @@ const receitasFavoritas= [
     {
         id: 3,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -58,7 +58,7 @@ const receitasFavoritas= [
     {
         id: 4,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -72,7 +72,7 @@ const receitasFavoritas= [
     {
         id: 5,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -86,7 +86,7 @@ const receitasFavoritas= [
     {
         id: 6,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
@@ -100,7 +100,7 @@ const receitasFavoritas= [
     {
         id: 7,
         nome: 'Receita Teste',
-        imagem: '../images/receitas-img/receita1.jpg',
+        imagem: '../images/livro-receitas-img/Favorita1.jpg',
         ingredientes: [
             'alimento1',
             'alimento2',
