@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin: 4rem;
+    margin: 6rem 4rem;
 }
 
 .receita-favorita-container {
@@ -16,6 +16,7 @@
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 1rem;
 }
 
@@ -69,12 +70,14 @@
     width: 300px;
     height: 300px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
 }
 
 @media screen and (max-width:800px) {
     .receitas-container {
         width: 100%;
-        margin: 1rem auto;
+        margin: 4rem auto 6rem auto;
     }
 
     .receita-favorita-container {
@@ -84,9 +87,5 @@
         width: 90%;
         margin: 0 auto;
         
-    }
-
-    .receita-info-container {
-        /* margin: 0 20px; */
     }
 }

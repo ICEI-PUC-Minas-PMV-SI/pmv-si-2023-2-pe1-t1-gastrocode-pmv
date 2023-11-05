@@ -26,7 +26,7 @@ receitasFavoritas.forEach(receita => {
 
         <div class="receita-info-container">
             <p class="favorita-info-item favorita-receita-title"> <strong>Nome da Receita: </strong>${receita.nome}</p>
-            <p class="favorita-info-item"> <strong>Ingredientes: </strong>${receita.ingredientes.forEach((receita) => `${receita}`)}</p>
+            <p class="favorita-info-item"> <strong>Ingredientes: </strong>${receita.ingredientes}</p>
             <p class="favorita-info-item"> <strong>Modo de Preparo: </strong>${receita.modoPreparo}</p>
             <p class="favorita-info-item"> <strong>Custo: </strong>${getReceitaCusto(receita.custo)}</p>
             
