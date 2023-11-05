@@ -11,6 +11,7 @@
     backdrop-filter: blur(5px);
     opacity: 1;
     animation: opacity .5s ease alternate;
+    z-index: 2;
 }
 
 .modal {
@@ -23,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    width: 450px;
+    width: 500px;
     max-height: 550px;
     overflow: auto;
 }
@@ -121,14 +122,26 @@
     width: 100%;
 }
 
+.add-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
 .modal-add-svg{
     fill: black;
     padding: 0.3rem;
     color: white;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     transition: .3s ease;
+}
+
+.heart-svg {
+    fill: red;
 }
 
 @media screen and (max-width:650px) {

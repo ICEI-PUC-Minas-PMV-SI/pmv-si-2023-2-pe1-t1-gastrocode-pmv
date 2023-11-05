@@ -29,6 +29,7 @@
 .receita-item-container {
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 7px gray;
 }
 
 .receita-item-imagem {
@@ -43,7 +44,6 @@
     align-items: center;
     background-color: black;
     padding: 0.5rem;
-    margin-top: 0.5rem;
 }
 
 .receita-item-nome {

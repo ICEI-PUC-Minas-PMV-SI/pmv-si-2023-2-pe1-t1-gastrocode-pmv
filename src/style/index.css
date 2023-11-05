@@ -90,6 +90,7 @@
 .content-main {
     margin-top: 100px;
     background-color: aliceblue;
+    min-height: calc(100vh - 180px);
 }
 
 .footer {
@@ -113,6 +114,7 @@
 .page-title {
     font-family: Ephesis, sans-serif;
     font-size: 3rem;
+    user-select: none;
 }
 
 .dropdown-container {
