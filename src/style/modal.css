@@ -131,4 +131,8 @@
     transition: .3s ease;
 }
 
-
+@media screen and (max-width:650px) {
+    .modal {
+        margin: 0 20px;
+    }
+}
