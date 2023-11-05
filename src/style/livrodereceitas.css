@@ -13,6 +13,7 @@
 }
 
 .receita-info-container {
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -29,12 +30,20 @@
 .favorita-button-container {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
     width: 100%;
+    cursor: pointer;
+}
+
+
+.remove-label {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .favorita-button{
     width: 200px;
-
+    
 }
 
 .section-title { 
@@ -52,8 +61,8 @@
 }
 
 .receita-item-imagem {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
