@@ -1,7 +1,17 @@
-import listaCompras from './receitas-favoritas-data.js';
+import listaCompras from './lista-compras-data.js';
 
 const body = document.querySelector('body');
 const receitaContainer = document.getElementById('receitaContainer');
+
+function getIngredientes(ingredientes) {
+    return ingredientes.split(',').map(ingrediente => `
+        <div class="ingrediente-checkbox">
+            <label class="compra-checkbox-label">${ingrediente}
+                <input class="favorita-info-item" type="checkbox">
+            </label>
+        </div>
+    `).join('');
+}
 
 listaCompras.forEach(receita => {
 
@@ -14,7 +24,7 @@ listaCompras.forEach(receita => {
         <div class="lista-info-container">
             <div class="lista-info">
                 <p class="favorita-info-item favorita-receita-title"> <strong>Nome da Receita: </strong>${receita.nome}</p>
-                <p class="favorita-info-item"> <strong>Ingredientes: </strong>${receita.ingredientes}</p>
+                ${getIngredientes(receita.ingredientes)}
              </div>          
             
             <div class="favorita-button-container">

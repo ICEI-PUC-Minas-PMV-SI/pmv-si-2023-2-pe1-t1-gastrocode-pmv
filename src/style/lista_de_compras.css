@@ -17,16 +17,18 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
+    width: 100%;
 }
 
 .lista-info {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .favorita-info-item {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .favorita-receita-title {
@@ -77,6 +79,17 @@
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
+}
+
+.compra-checkbox-label {
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+}
+
+.ingrediente-checkbox {
+    display: flex;
+    gap: 1rem;
 }
 
 @media screen and (max-width:850px) {

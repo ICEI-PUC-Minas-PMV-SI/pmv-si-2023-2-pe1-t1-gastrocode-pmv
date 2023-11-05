@@ -100,7 +100,7 @@
     box-shadow: none;
 }
 
-.login-option-container {
+.ainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,6 +108,12 @@
     width: 100%;
     text-align: end;
     cursor: pointer;
+}
+
+.login-option-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-option {
