@@ -1,3 +1,42 @@
+.receitas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.receita-favorita-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 1rem;
+}
+
+.receita-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.favorita-info-item{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.favorita-receita-title {
+    font-size: 1.5rem;
+}
+
+.favorita-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.favorita-button{
+    width: 200px;
+    
+}
+
 .section-title { 
     user-select: none;
     font-family: 'Montserrat', sans-serif;
@@ -5,33 +44,6 @@
     text-align: center;
 }
 
-.pesquisa-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
-
-}
-
-.pesquisa-input {
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    backdrop-filter: blur(15px);
-    box-shadow: none;
-    outline: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.receitas-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: left;
-    gap: 2rem;
-    margin: 4rem;
-}
 
 
 .receita-item-container {
