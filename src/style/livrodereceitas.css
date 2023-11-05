@@ -4,3 +4,71 @@
     font-size: xx-large;
     text-align: center;
 }
+
+.pesquisa-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.pesquisa-input {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    box-shadow: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.receitas-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: left;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+
+.receita-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.receita-item-imagem {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.receita-nome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.receita-item-nome {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+.receita-item-button {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.5s;
+    user-select: none;
+}
