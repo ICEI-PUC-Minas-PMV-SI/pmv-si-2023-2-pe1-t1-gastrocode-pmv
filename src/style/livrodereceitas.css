@@ -8,7 +8,7 @@
 .receita-favorita-container {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     gap: 1rem;
 }
 
@@ -74,7 +74,7 @@
     box-shadow: 0 0 5px black;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     .receitas-container {
         width: 100%;
         margin: 4rem auto 6rem auto;
