@@ -21,6 +21,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Nome completo do professor 1
 
+## Como Rodar a Aplicação
+
+- Preferencialmente utilize o VSCode
+- Abra o arquivo do projeto dentro do editor
+- Instale e rode a extensão LiveServer
+
 # Planejamento
 
 | Etapa         | Atividades |
