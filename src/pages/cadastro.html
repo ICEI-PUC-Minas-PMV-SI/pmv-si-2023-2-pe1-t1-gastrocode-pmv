@@ -14,7 +14,6 @@
 
 
 <body>
-
     <header class="header cadastro-header">
         <div class="logo-container cadastro-logo-container">
             <img class="gastrocode-icon" src="../images/GastroCode-logo.png">
@@ -31,21 +30,18 @@
         </section>
         <section class="cadastro-form-container">
             <h1 class="cadastro-title">Torne-se um chefe</h1>
-            <form class="cadastro-form">
+            <form class="cadastro-form" id="cadastroUsuarioForm">
                 <div class="cadastro-input-container">
-                    <input class="cadastro-input" type="text" placeholder="NOME DO USUÁRIO" spellcheck="false" required>
+                    <input class="cadastro-input" type="text" placeholder="NOME DO USUÁRIO" spellcheck="false" required id="nomeUsuario" name="nomeUsuario">
                 </div>
                 <div class="cadastro-input-container">
-                    <input class="cadastro-input" type="emai" placeholder="E-MAIL" spellcheck="false" required>
+                    <input class="cadastro-input" type="emai" placeholder="E-MAIL" spellcheck="false" required id="emailUsuario" name="emailUsuario">
                 </div>
                 <div class="cadastro-input-container">
-                    <input class="cadastro-input" type="emai" placeholder="CONFIRMAR E-MAIL" spellcheck="false" required>
+                    <input class="cadastro-input" type="password" placeholder="SENHA" spellcheck="false" required id="senhaUsuario" name="senhaUsuario">
                 </div>
                 <div class="cadastro-input-container">
-                    <input class="cadastro-input" type="password" placeholder="SENHA" spellcheck="false" required>
-                </div>
-                <div class="cadastro-input-container">
-                    <input class="cadastro-input" type="password" placeholder="CONFIRMAR SENHA" spellcheck="false" required>
+                    <input class="cadastro-input" type="password" placeholder="CONFIRMAR SENHA" spellcheck="false" required id="senhaUsuarioConfirmed" name="senhaUsuarioConfirmed">
                 </div>
                 <button class="cadastro-button">CADASTRAR</button>
                 <div class="cadastro-option-container">
@@ -54,6 +50,8 @@
             </form>
         </section>
     </main>
+
+    <script src="../js/crud/usuario-singup.js"></script>
 </body>
 
 </html>

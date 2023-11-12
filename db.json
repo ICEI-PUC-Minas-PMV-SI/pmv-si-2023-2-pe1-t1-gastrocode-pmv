@@ -1,0 +1,16 @@
+{
+  "usuarios": [
+    {
+      "nomeUsuario": "gregory",
+      "emailUsuario": "gregory@gmail.com",
+      "senhaUsuario": "gastrocode",
+      "id": 1
+    },
+    {
+      "nomeUsuario": "teste",
+      "emailUsuario": "teste@gmail.com",
+      "senhaUsuario": "teste",
+      "id": 2
+    }
+  ]
+}
