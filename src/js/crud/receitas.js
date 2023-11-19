@@ -10,7 +10,8 @@ function cadastrarReceita(e) {
         imagemReceita: document.getElementById('imagemReceita').value,
         ingredientesReceita: document.getElementById('ingredientesReceita').value,
         modoPreparoReceita: document.getElementById('modoPreparoReceita').value,
-        custoReceit: document.getElementById('custoReceit').value
+        tempoDePreparo: document.getElementById('tempoDePreparo').value,
+        custoReceita: document.getElementById('custoReceita').value
     })
 
         fetch('http://localhost:3000/receitas', {

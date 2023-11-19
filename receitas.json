@@ -2,18 +2,23 @@
     "receitas": [
     {
         "idReceita": 0,
-        "nomeReceita": "Receita teste",
+        "nomeReceita": "Salmão grelhado light",
         "imagemReceita": "../images/receitas-img/receita1.jpg",
         "ingredientesReceita": [
-            "alimento1",
-            "alimento2",
-            "alimento3",
-            "alimento4",
-            "alimento5"
+            "2 filés de salmão",
+            "2 limões",
+            "Sal a gosto",
+            "1 colher de chá de pasta de alho",
+            "50ml de azeite de oliva",
+            "Coentro a gosto"
         ],
         "modoPreparoReceita": [ 
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
+        "Esprema o suco dos limões. Tempere os filés de salmão no suco dos limões e um pouco de sal, Deixe na geladeira de um dia para o outro.",
+        "Pouco antes de grelhar o salmão, junte o coentro picado, o alho, o azeite de oliva e uma pitada de sal em uma tigela. Misture para obter um molhinho.",
+        "Com o auxílio de um raminho de coentro, pincele os filés de salmão com o molho. Leve os filés em uma frigideira ao fogo para grelhar. Pincele o peixe com o molho toda vez que virar.",
+        "Na última virada, despeje o restante do molho por cima dos filés de salmão. Deixe dourar mais um pouquinho para aderir bem e estará pronto."
     ],
+        "tempoDePreparo": "30min",
         "custoReceita": 3
         
     },
@@ -31,6 +36,7 @@
         "modoPreparoReceita": [ 
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
     ],
+        "tempoDePreparo": "1h30min",
         "custoReceita": 3
     },
     {
@@ -47,6 +53,7 @@
         "modoPreparoReceita": [ 
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
     ],
+        "tempoDePreparo": "1h30min",
         "custoReceita": 3
     },
     {
@@ -63,6 +70,7 @@
         "modoPreparoReceita": [ 
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
     ],
+        "tempoDePreparo": "1h30min",
         "custoReceita": 3
     }
     ]
