@@ -1,0 +1,69 @@
+{
+    "receitas": [
+    {
+        "idReceita": 0,
+        "nomeReceita": "Receita teste",
+        "imagemReceita": "../images/receitas-img/receita1.jpg",
+        "ingredientesReceita": [
+            "alimento1",
+            "alimento2",
+            "alimento3",
+            "alimento4",
+            "alimento5"
+        ],
+        "modoPreparoReceita": [ 
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
+    ],
+        "custoReceita": 3
+        
+    },
+    {
+        "idReceita": 1,
+        "nomeReceita": "Receita teste",
+        "imagemReceita": "../images/receitas-img/receita1.jpg",
+        "ingredientesReceita": [
+            "alimento1",
+            "alimento2",
+            "alimento3",
+            "alimento4",
+            "alimento5"
+        ],
+        "modoPreparoReceita": [ 
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
+    ],
+        "custoReceita": 3
+    },
+    {
+        "idReceita": 2,
+        "nomeReceita": "Receita teste",
+        "imagemReceita": "../images/receitas-img/receita1.jpg",
+        "ingredientesReceita": [
+            "alimento1",
+            "alimento2",
+            "alimento3",
+            "alimento4",
+            "alimento5"
+        ],
+        "modoPreparoReceita": [ 
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
+    ],
+        "custoReceita": 3
+    },
+    {
+        "idReceita": 3,
+        "nomeReceita": "Receita teste",
+        "imagemReceita": "../images/receitas-img/receita1.jpg",
+        "ingredientesReceita": [
+            "alimento1",
+            "alimento2",
+            "alimento3",
+            "alimento4",
+            "alimento5"
+        ],
+        "modoPreparoReceita": [ 
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero modi molestias nam nesciunt reiciendis natus praesentium deserunt minus porro."
+    ],
+        "custoReceita": 3
+    }
+    ]
+}
