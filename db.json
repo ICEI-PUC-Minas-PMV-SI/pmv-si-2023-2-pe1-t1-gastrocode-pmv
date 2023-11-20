@@ -1,16 +1,37 @@
 {
-  "usuarios": [
-    {
-      "nomeUsuario": "gregory",
-      "emailUsuario": "gregory@gmail.com",
-      "senhaUsuario": "gastrocode",
-      "id": 1
-    },
-    {
-      "nomeUsuario": "teste",
-      "emailUsuario": "teste@gmail.com",
-      "senhaUsuario": "teste",
-      "id": 2
-    }
-  ]
+    "usuarios": [
+        {
+            "nomeUsuario": "teste",
+            "emailUsuario": "teste@gmail.com",
+            "senhaUsuario": "12345",
+            "receitasFavoritas": [
+                1,
+                2
+            ],
+            "id": 1
+        }
+    ],
+    "receitas": [
+        {
+            "id": 0,
+            "nomeReceita": "Salmão grelhado light",
+            "imagemReceita": "../images/receitas-img/receita1.jpg",
+            "ingredientesReceita": [
+                "2 filés de salmão",
+                "2 limões",
+                "Sal a gosto",
+                "1 colher de chá de pasta de alho",
+                "50ml de azeite de oliva",
+                "Coentro a gosto"
+            ],
+            "modoPreparoReceita": [
+                "Esprema o suco dos limões. Tempere os filés de salmão no suco dos limões e um pouco de sal, Deixe na geladeira de um dia para o outro.",
+                "Pouco antes de grelhar o salmão, junte o coentro picado, o alho, o azeite de oliva e uma pitada de sal em uma tigela. Misture para obter um molhinho.",
+                "Com o auxílio de um raminho de coentro, pincele os filés de salmão com o molho. Leve os filés em uma frigideira ao fogo para grelhar. Pincele o peixe com o molho toda vez que virar.",
+                "Na última virada, despeje o restante do molho por cima dos filés de salmão. Deixe dourar mais um pouquinho para aderir bem e estará pronto."
+            ],
+            "tempoDePreparo": "30min",
+            "custoReceita": 3
+        }
+    ]
 }

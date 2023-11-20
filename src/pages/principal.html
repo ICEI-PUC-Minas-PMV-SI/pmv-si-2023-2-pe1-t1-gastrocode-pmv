@@ -22,10 +22,18 @@
         <nav>
             <ul class="header-navbar-list">
 
-                <a href="livroreceitas.html"> <li class="navbar-list-item navbar-allow-hidden"> Meu Livro de Receitas </li> </a> 
-                <a href="lista_de_compras.html"> <li class="navbar-list-item navbar-allow-hidden"> Lista de Compras </li> </a>
-                <a href="config.html"> <li class="navbar-list-item navbar-allow-hidden"> Configurações </li> </a>
-                <a href="faq.html"> <li class="navbar-list-item navbar-allow-hidden"> Ajuda </li> </a>
+                <a href="livroreceitas.html">
+                    <li class="navbar-list-item navbar-allow-hidden"> Meu Livro de Receitas </li>
+                </a>
+                <a href="lista_de_compras.html">
+                    <li class="navbar-list-item navbar-allow-hidden"> Lista de Compras </li>
+                </a>
+                <a href="config.html">
+                    <li class="navbar-list-item navbar-allow-hidden"> Configurações </li>
+                </a>
+                <a href="faq.html">
+                    <li class="navbar-list-item navbar-allow-hidden"> Ajuda </li>
+                </a>
 
                 <div class="navbar-user">
                     <img class="user-icon" src="../images/default-user-icon.jpg">
@@ -48,11 +56,21 @@
 
                 <div class="dropdown-container">
                     <div class="dropdown-content">
-                        <a href="livroreceitas.html"> <li class="dropdown-item"> Meu Livro de Receitas </li> </a> 
-                        <a href="lista_de_compras.html"> <li class="dropdown-item"> Lista de Compras </li> </a>
-                        <a href="config.html"> <li class="dropdown-item"> Configurações </li> </a>
-                        <a href="faq.html"> <li class="dropdown-item"> Ajuda </li> </a>
-                        <a href="../../index.html"> <li class="dropdown-item"> Sair </li> </a>
+                        <a href="livroreceitas.html">
+                            <li class="dropdown-item"> Meu Livro de Receitas </li>
+                        </a>
+                        <a href="lista_de_compras.html">
+                            <li class="dropdown-item"> Lista de Compras </li>
+                        </a>
+                        <a href="config.html">
+                            <li class="dropdown-item"> Configurações </li>
+                        </a>
+                        <a href="faq.html">
+                            <li class="dropdown-item"> Ajuda </li>
+                        </a>
+                        <a href="../../index.html">
+                            <li class="dropdown-item"> Sair </li>
+                        </a>
                     </div>
                 </div>
 
@@ -61,12 +79,9 @@
     </header>
 
     <div>
-        <svg
-            class="modal-add-svg" 
-            xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 512 512"
-        >
-            <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
+        <svg class="modal-add-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+                d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z" />
         </svg>
     </div>
 
@@ -79,20 +94,21 @@
             <input class="pesquisa-input" type="search" placeholder="Nome da receita">
         </section>
 
-        <section class="receitas-container" id="receitaContainer">
-            <script type="module" src="../js/card-receitas.js"></script>
-        </section>
-
+        <section class="receitas-container" id="receitaContainer"></section>
+        
     </main>
 
     <footer class="footer">
-        <p>© 2023 Gastrocode - Todos os direitos reservados. Desenvolvido para o projeto da disciplina Projeto Web na
-            PUC Minas.</p>
+        <p>
+            © 2023 Gastrocode - Todos os direitos reservados. Desenvolvido para o projeto da disciplina Projeto Web na
+            PUC Minas.
+        </p>
     </footer>
 
     <script src="../js/logout.js"></script>
     <script src="../js/header-dropdown.js"></script>
     <script src="../js/logo-router.js"></script>
+    <script src="../js/crud/receitas.js"></script>
 
 </body>
 

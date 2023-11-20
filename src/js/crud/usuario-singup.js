@@ -9,7 +9,6 @@ function cadastrarUsuario(e) {
         senhaUsuario: document.getElementById('senhaUsuario').value,
     })
 
-    console.log(usuario);
     if (document.getElementById('senhaUsuario').value === document.getElementById('senhaUsuarioConfirmed').value) {
         ''
         fetch('http://localhost:3000/usuarios', {
