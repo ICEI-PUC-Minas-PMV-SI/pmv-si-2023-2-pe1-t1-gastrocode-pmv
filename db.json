@@ -15,23 +15,74 @@
         {
             "id": 0,
             "nomeReceita": "Salmão grelhado light",
-            "imagemReceita": "../images/receitas-img/receita1.jpg",
+            "imagemReceita": "../images/receitas-img/receita0.jpg",
             "ingredientesReceita": [
                 "2 filés de salmão",
                 "2 limões",
                 "Sal a gosto",
                 "1 colher de chá de pasta de alho",
                 "50ml de azeite de oliva",
-                "Coentro a gosto"
+                "Coentro a gosto."
             ],
             "modoPreparoReceita": [
-                "Esprema o suco dos limões. Tempere os filés de salmão no suco dos limões e um pouco de sal, Deixe na geladeira de um dia para o outro.",
-                "Pouco antes de grelhar o salmão, junte o coentro picado, o alho, o azeite de oliva e uma pitada de sal em uma tigela. Misture para obter um molhinho.",
-                "Com o auxílio de um raminho de coentro, pincele os filés de salmão com o molho. Leve os filés em uma frigideira ao fogo para grelhar. Pincele o peixe com o molho toda vez que virar.",
-                "Na última virada, despeje o restante do molho por cima dos filés de salmão. Deixe dourar mais um pouquinho para aderir bem e estará pronto."
+                "Esprema o suco dos limões. Tempere os filés de salmão no suco dos limões e um pouco de sal, deixe na geladeira de um dia para o outro.\n\nPouco antes de grelhar o salmão, junte o coentro picado, o alho, o azeite de oliva e uma pitada de sal em uma tigela. Misture para obter um molhinho.\n\nCom o auxílio de um raminho de coentro, pincele os filés de salmão com o molho. Leve os filés em uma frigideira ao fogo para grelhar. Pincele o peixe com o molho toda vez que virar.\n\nNa última virada, despeje o restante do molho por cima dos filés de salmão. Deixe dourar mais um pouquinho para aderir bem e estará pronto."
             ],
             "tempoDePreparo": "30min",
             "custoReceita": 3
+        },        
+        {
+            "id": 1,
+            "nomeReceita": "Panqueca de banana e aveia",
+            "imagemReceita": "../images/receitas-img/receita1.jpg",
+            "ingredientesReceita": [
+                "2 colheres de sopa de farinha de aveia",
+                "1 colher de sopa de linhaça ou farinha de linhaça",
+                "1 pitada de adoçante culinário (opcional)",
+                "2 claras",
+                "1 banana bem madura",
+                "Óleo de coco para untar frigideira."
+            ],
+            "modoPreparoReceita": [
+                "Em uma tigela, misture a aveia e a linhaça. Caso queira deixar mais docinho, acrescente o adoçante.\n\nAmasse a bananas.\n\nJunte as claras e as bananas amassadas com a mistura de aveia e linhaça, e mexa bem até que a massa fique homogênea.\n\nEm uma frigideira, passe 1/2 colher de chá de óleo de coco, coloque uma pequena porção da massa e espere dourar um lado. Quando um lado estiver douradinho, repita o processo com o outro lado. Coloque em um prato e sirva com algum complemento."
+            ],
+            "tempoDePreparo": "15min",
+            "custoReceita": 1
+        },        
+        {
+            "id": 2,
+            "nomeReceita": "Pão de Queijo de Tapioca",
+            "imagemReceita": "../images/receitas-img/receita2.jpg",
+            "ingredientesReceita": [
+                "1 xícara de chá de tapioca hidratada",
+                "75 g de cream cheese (ou creme de ricota light)",
+                "40 g de queijo minas curado (ou parmesão) ralado",
+                "1 colher de sopa de linhaça (ou chia)",
+                "Sal a gosto."
+            ],
+            "modoPreparoReceita": [
+                "Coloque todos os ingredientes em uma tigela, e misture.\n\nUnte as mãos com um pouco de óleo, e molde bolinhas com a massa.\n\nDisponha as bolinhas em uma forma untada com um pouquinho de azeite, e asse-as em forno pré-aquecido a 200º graus por cerca de 20 a 25 minutos, ou até que os pães de queijo fiquem dourados."
+            ],
+            "tempoDePreparo": "30min",
+            "custoReceita": 2
+        },        
+        {
+            "id": 3,
+            "nomeReceita": "Berinjela Recheada",
+            "imagemReceita": "../images/receitas-img/receita3.jpg",
+            "ingredientesReceita": [
+                "1 berinjela grande",
+                "150 gramas de carne (patinho) moído",
+                "1 cebola pequena picada",
+                "1 tomate picado",
+                "1 colher de sopa de molho de tomate",
+                "1 colher de sobremesa de requeijão light (opcional)",
+                "Sal a gosto."
+            ],
+            "modoPreparoReceita": [
+                "Corte a berinjela ao meio, retire e pique o miolo e reserve.\n\nAdicione em uma panela um fio de azeite, a cebola, a carne e deixe refogar bem.\n\nAcrescente o miolo da berinjela picado, o tomate, o molho, os temperos, misture e deixe cozinhar por alguns minutos.\n\nRecheie as berinjelas com este refogado e coloca por cima o requeijão light.\n\nColoque em uma forma e leve ao forno preaquecido a 180ºC por aproximadamente 20 minutos."
+            ],
+            "tempoDePreparo": "50min",
+            "custoReceita": 2
         }
     ]
 }

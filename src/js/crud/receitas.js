@@ -53,6 +53,7 @@ function openReceitaCard(receita) {
                     <div class="modal-receita-info">
                         <span class="modal-receita-text"><strong>Ingredientes: </strong> ${receita.ingredientesReceita.join(", ")}</span>
                         <span class="modal-receita-text"><strong>Modo de Preparo: </strong> ${receita.modoPreparoReceita}</span>
+                        <span class="modal-receita-text"><strong>Tempo de Preparo: </strong> ${receita.tempoDePreparo}</span>
                         <span class="modal-receita-text"><strong>Custo: </strong> ${getReceitaCusto(receita.custoReceita)}</span>
                     </div>
                 </div>
