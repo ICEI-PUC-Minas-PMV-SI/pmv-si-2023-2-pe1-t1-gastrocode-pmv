@@ -20,6 +20,7 @@ function loginUsuario(e) {
                     usuarioDb.senhaUsuario === document.getElementById('senhaUsuario').value
             )
             if (usuarioAutenticado) {
+                document.cookie = `userId=${usuarioAutenticado.id}; path=/`;
                 window.location.href = 'src/pages/principal.html';
             } else {
                 alert('Usuário ou senha inválidos!');
