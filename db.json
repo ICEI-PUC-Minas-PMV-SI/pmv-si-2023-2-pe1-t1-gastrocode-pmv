@@ -20,10 +20,12 @@
       "emailUsuario": "vivianepertence@gmail.com",
       "senhaUsuario": "gastrocode",
       "receitasFavoritas": [
-        1
+        1,
+        8
       ],
       "listaCompras": [
-        1
+        1,
+        8
       ],
       "id": 2
     }
@@ -31,8 +33,8 @@
   "receitas": [
     {
       "id": 1,
-      "nomeReceita": "Salmão grelhado light",
-      "imagemReceita": "../images/receitas-img/receita0.jpg",
+      "nomeReceita": "Salmão Grelhado Light",
+      "imagemReceita": "../images/receitas-img/receita1.jpg",
       "ingredientesReceita": [
         "2 filés de salmão",
         "2 limões",
@@ -49,8 +51,8 @@
     },
     {
       "id": 2,
-      "nomeReceita": "Panqueca de banana e aveia",
-      "imagemReceita": "../images/receitas-img/receita1.jpg",
+      "nomeReceita": "Panqueca de Banana e Aveia",
+      "imagemReceita": "../images/receitas-img/receita2.jpg",
       "ingredientesReceita": [
         "2 colheres de sopa de farinha de aveia",
         "1 colher de sopa de linhaça ou farinha de linhaça",
@@ -64,6 +66,266 @@
       ],
       "tempoDePreparo": "15min",
       "custoReceita": 1
+    },
+    {
+      "id": 3,
+      "nomeReceita": "Pão de Queijo de Tapioca",
+      "imagemReceita": "../images/receitas-img/receita3.jpg",
+      "ingredientesReceita": [
+        "1 xícara de chá de tapioca hidratada",
+        "75 g de cream cheese (ou creme de ricota light)",
+        "40 g de queijo minas curado (ou parmesão) ralado",
+        "1 colher de sopa de linhaça (ou chia)",
+        "Sal a gosto."
+      ],
+      "modoPreparoReceita": [
+        "Coloque todos os ingredientes em uma tigela, e misture.\n\nUnte as mãos com um pouco de óleo, e molde bolinhas com a massa.\n\nDisponha as bolinhas em uma forma untada com um pouquinho de azeite, e asse-as em forno pré-aquecido a 200º graus por cerca de 20 a 25 minutos, ou até que os pães de queijo fiquem dourados."
+      ],
+      "tempoDePreparo": "30min",
+      "custoReceita": 2
+    },
+    {
+      "id": 4,
+      "nomeReceita": "Berinjela Recheada",
+      "imagemReceita": "../images/receitas-img/receita4.jpg",
+      "ingredientesReceita": [
+        "1 berinjela grande",
+        "150 gramas de carne moída (patinho)",
+        "1 cebola pequena picada",
+        "1 tomate picado",
+        "1 colher de sopa de molho de tomate",
+        "1 colher de sobremesa de requeijão light (opcional)",
+        "Sal a gosto."
+      ],
+      "modoPreparoReceita": [
+        "Corte a berinjela ao meio, retire e pique o miolo e reserve.\n\nAdicione em uma panela um fio de azeite, a cebola, a carne e deixe refogar bem.\n\nAcrescente o miolo da berinjela picado, o tomate, o molho, os temperos, misture e deixe cozinhar por alguns minutos.\n\nRecheie as berinjelas com este refogado e coloca por cima o requeijão light.\n\nColoque em uma forma e leve ao forno preaquecido a 180ºC por aproximadamente 20 minutos."
+      ],
+      "tempoDePreparo": "50min",
+      "custoReceita": 2
+    },
+    {
+      "id": 5,
+      "nomeReceita": "Empada Integral",
+      "imagemReceita": "../images/receitas-img/receita5.jpg",
+      "ingredientesReceita": [
+        "Para a massa: 500 g farinha de trigo integral",
+        "9 colheres (sopa) de margarina light",
+        "4 gemas de ovos.\n\nPara o recheio: 1 peito de frango desfiado",
+        "1/2 cebola picada",
+        "1 copo de requeijão light",
+        "1 tomate médio",
+        "Temperos a gosto (sal, alho, páprica)."
+      ],
+      "modoPreparoReceita": [
+        "Preparo da massa: Em um recipiente, despeje a farinha de trigo integral.\n\nColoque as gemas sobre a farinha e mexa até que o ovo e a farinha se misturem.\n\nDerreta a margarina por 30 segundos no microondas e despeje aos poucos sobre a mistura. Vá mexendo com as mãos até que a massa fique uniforme.\n\nDeixe a massa descansar por 10 minutos. Em seguida, abra a massa com um rolo e modele nas forminhas de empada. Acrescente o recheio e tampe a empada com uma massa fina.\n\nPreparo do Recheio: Refogue a cebola, alho, tomate e demais temperos, acrescente o frango desfiado, o requeijão e deixe cozinhar até incorporar todos os ingredientes."
+      ],
+      "tempoDePreparo": "40min",
+      "custoReceita": 2
+    },
+    {
+      "id": 6,
+      "nomeReceita": "Pizza Low Carb",
+      "imagemReceita": "../images/receitas-img/receita6.jpg",
+      "ingredientesReceita": [
+        "Para a massa: 4 ovos",
+        "2 xícaras de peito de frango cozido (com sal) e triturado",
+        "1/2 xícara de mussarela ou parmesão ralado",
+        "1 colher (de sopa) de fermento em pó",
+        "2 colheres (de sopa) de azeite.\n\nPara o recheio: Queijo mussarela a gosto",
+        "Tomates cortados em rodelas",
+        "Molho de tomate natural (tomate triturado e temperado)",
+        "Orégano e manjericão a gosto."
+      ],
+      "modoPreparoReceita": [
+        "Coloque os ovos em um recipiente e bata bem, adicione um pouco do frango triturado, o queijo e o azeite, mexa bem.\n\nVá adicionando o restante do frango aos poucos e incorporando à massa até adicionar todo o frango.\n\nQuando a massa estiver mais consistente adicione o fermento e misture.\n\nEspalhe a massa em um refratário de vidro ou forma.\n\nLeve ao forno pré-aquecido à 200ºC de 20 à 25 minutos.\n\nCubra a massa com o molho de tomate, o queijo, manjericão e o orégano.\n\nLeve ao forno por mais 10 minutos.\n\nRetire e coloque as rodelas de tomate e está pronto para servir."
+      ],
+      "tempoDePreparo": "60min",
+      "custoReceita": 2
+    },
+    {
+      "id": 7,
+      "nomeReceita": "Salada de Grão-de-Bico",
+      "imagemReceita": "../images/receitas-img/receita7.jpg",
+      "ingredientesReceita": [
+        "1 e ½ xícara de chá de grão-de-bico cozido",
+        "½ xícara de chá de tomate picado",
+        "¼ de xícara de chá de cebola picada",
+        "½ xícara de chá de cenoura ralada",
+        "1 colher de sopa de suco de limão",
+        "½ colher de chá de sal",
+        "Salsinha e cebolinha a gosto",
+        "Azeite a gosto."
+      ],
+      "modoPreparoReceita": [
+        "Coloque todos os ingredientes em uma tigela, e misture para pegar bem o tempero.\n\nColoque a salada na geladeira pra incorporar os sabores por aproximadamente 20 minutos.\n\nSirva em seguida.\n\nEssa é uma salada muito versátil, use a criatividade acrescentando outros ingredientes de sua preferência."
+      ],
+      "tempoDePreparo": "40min",
+      "custoReceita": 2
+    },
+    {
+      "id": 8,
+      "nomeReceita": "Mousse de Chocolate Fit",
+      "imagemReceita": "../images/receitas-img/receita8.jpg",
+      "ingredientesReceita": [
+        "200 g de chocolate meio amargo 50% cacau",
+        "1 abacate maduro",
+        "Raspas de chocolate para decorar."
+      ],
+      "modoPreparoReceita": [
+        "Derreta o chocolate no micro-ondas ou em banho-maria e reserve.\n\nCorte o abacate ao meio, retire o caroço, e coloque a poupa no liquidificador; adicione o chocolate derretido (em temperatura ambiente) e bata até incorporar.\n\nColoque a mousse em um refratário e decore com as raspas de chocolate.\n\nLeve a geladeira para pegar consistência e ficar bem geladinho e sirva em seguida."
+      ],
+      "tempoDePreparo": "40min",
+      "custoReceita": 2
+    },
+    {
+      "id": 9,
+      "nomeReceita": "Omelete",
+      "imagemReceita": "../images/receitas-img/receita9.jpg",
+      "ingredientesReceita": [
+        "2 ovos",
+        "1 colher de requeijão light",
+        "1/4 de cebola picada",
+        "1/2 tomate picado",
+        "1/2 xícara de espinafre",
+        "Azeite, sal, pimenta, temperos a gosto."
+      ],
+      "modoPreparoReceita": [
+        "Em uma frigideira coloque o azeite, a cebola, tomate e o espinafre para refogar, tempere com sal, pimenta e os temperos que desejar e reserve.\n\nQuebre os ovos em um tijela, tempere a gosto e bata com um garfo ou fouet, deixando a mistura homogênea.\n\nNa mesma frigideira onde preparou os vegetais, coloque um pouco mais de azeite, deixe aquecer e adicione a mistura de ovos. Quando estiver dourado de um lado, vire a omelete para dourar do outro lado.\n\nAcrescente o recheio de vegetais, dobre a omelete para fechar e sirva em seguida."
+      ],
+      "tempoDePreparo": "20min",
+      "custoReceita": 1
+    },
+    {
+      "id": 10,
+      "nomeReceita": "Chá Gelado de Pêssego",
+      "imagemReceita": "../images/receitas-img/receita10.jpg",
+      "ingredientesReceita": [
+        "2 saquinhos de chá preto",
+        "500ml de água",
+        "2 pêssegos",
+        "Rodelas de laranja e limão",
+        "Adoçante e gelo."
+      ],
+      "modoPreparoReceita": [
+        "Prepare o chá, aquecendo a água e colocando os saquinhos de chá em infusão por  minutos. Em seguida, tire os saquinhos e deixe o chá esfriar.\n\nDescasque os pêssegos, pique e esprema até conseguir um purê.\n\nAdicione o pêssego ao chá e adoce a gosto, incremente com as rodelas de limão e laranja e sirva com bastante gelo."
+      ],
+      "tempoDePreparo": "30min",
+      "custoReceita": 2
+    },
+    {
+      "id": 11,
+      "nomeReceita": "Coxinha Fit",
+      "imagemReceita": "../images/receitas-img/receita11.jpg",
+      "ingredientesReceita": [
+        "1 xícara (chá) de peito de frango",
+        "2 xícaras (chá) de batata doce",
+        "1/2 xícara (chá) de farelo de aveia",
+        "50ml de água filtrada",
+        "2 ovos",
+        "1 colher de sopa de azeite",
+        "1 tomate",
+        "1 cebola",
+        "Sal e pimenta do reino a gosto",
+        "2 xícaras (chá) de farinha de aveia ou de linhaça."
+      ],
+      "modoPreparoReceita": [
+        "Cozinhe as batatas e quando estiverem macias, desligue o fogo, espere esfriar e em seguida bata no liquidificador acrescentando aos poucos a água até obter uma massa.\n\nDespeje a massa formada em um recipiente e acrescente um dos ovos, o farelo de aveia, tempere a gosto, misture tudo muito bem e reserve.\n\nCozinhe o peito de frango e desfie. Para fazer o recheio, refogue no azeite a cebola, o tomate e o frango desfiado, tempere e reserve.\n\nPegue um pouco da massa, abra na palma da mão, coloque o recheio no centro e feche em formato de coxinha. Para empanar, bata um ovo com o garfo ou fouet, passe a coxinha no ovo batido e em seguida na farinha de aveia ou linhaça. Leve-as para assar em forno pré-aquecido a 180° por aproximadamente 40 minutos ou até que estejam douradas."
+      ],
+      "tempoDePreparo": "60min",
+      "custoReceita": 2
+    },
+    {
+      "id": 13,
+      "nomeReceita": "Frango com Creme de Milho",
+      "imagemReceita": "../images/receitas-img/receita13.jpg",
+      "ingredientesReceita": [
+        "300 g de filé de frango",
+        "Suco de meio limão",
+        "2 colheres (sopa) de azeite",
+        "3 dentes de alho",
+        "1 cebola pequena picada",
+        "1 colher (sopa) de salsinha picada",
+        "Sal, pimenta reino",
+        "1 lata de milho",
+        "1 caixa de creme de leite",
+        "3 colheres (sopa) de queijo parmesão ralado."
+      ],
+      "modoPreparoReceita": [
+        "Corte o frango em cubos e tempere com limão, sal e pimenta do reino. Deixe marinar em um recipiente por 20 minutos.\n\nEm uma panela, aqueça o azeite e refogue o alho e a cebola. Acrescente o frango e deixe dourar. Retire do fogo, junte a salsinha e reserve para servir com o acompanhamento.\n\nPara o creme de milho, bata todos os ingredientes, menos o parmesão.\n\nColoque no frango em um refratário e despeje o creme de milho por cima. Salpique o parmesão por cima do creme e leve para gratinar em forno préaquecido a 180° até que o queijo derreta."
+      ],
+      "tempoDePreparo": "50min",
+      "custoReceita": 2
+    },
+    {
+      "id": 14,
+      "nomeReceita": "Macarrão ao Pesto de Rúcula",
+      "imagemReceita": "../images/receitas-img/receita14.jpg",
+      "ingredientesReceita": [
+        "250 g de macarrão tipo Penne ou Farfalle cozido",
+        "1 xícara (chá) de tomate Grape",
+        "1 cenoura pequena ralada",
+        "1 pepino em tiras finas",
+        "1 pimentão amarelo em tiras finas",
+        "1/2 maço de rúcula",
+        "Sal, pimenta reino",
+        "1 pote de iogurte natural",
+        "1 dente de alho pequeno",
+        "5 azeitonas verdes sem caroço."
+      ],
+      "modoPreparoReceita": [
+        "Em um recipiente misture todos os ingredientes.Reserve.\n\nEm um liquidificador, bata metade da rúcula, o iogurte, o sal, o alho e as azeitonas, até ficar homogêneo.\n\nEnvolva a salada com o molho, tempere com sal e pimenta e decore com a rúcula restante."
+      ],
+      "tempoDePreparo": "20min",
+      "custoReceita": 1
+    },
+    {
+      "id": 15,
+      "nomeReceita": "Smoothie de Manga e Maracujá",
+      "imagemReceita": "../images/receitas-img/receita15.jpg",
+      "ingredientesReceita": [
+        "300 ml de leite desnatado",
+        "Polpa de 1 maracujá",
+        "1 manga grande cortada em cubos (congelada)."
+      ],
+      "modoPreparoReceita": [
+        "Em um liquidificador, bata todos os ingredientes com bastante gelo até que a mistura fique homogênea e sirva em seguida."
+      ],
+      "tempoDePreparo": "20min",
+      "custoReceita": 1
+    },
+    {
+      "id": 16,
+      "nomeReceita": "Danoninho Saudável",
+      "imagemReceita": "../images/receitas-img/receita16.jpg",
+      "ingredientesReceita": [
+        "1 pote de iogurte natural",
+        "1 banana bem madura e congelada",
+        "200 g de morangos congelados",
+        "2 colheres de sopa de leite em pó."      
+      ],
+      "modoPreparoReceita": [
+        "Em um liquidificador, junte todos os ingredientes e bate por, aproximadamente 3 minutos ou até misturar bem. Transfira para um recipiente e coloque para gelar."
+      ],
+      "tempoDePreparo": "20min",
+      "custoReceita": 1
+    },
+    {
+      "id": 17,
+      "nomeReceita": "Almôndega Fit",
+      "imagemReceita": "../images/receitas-img/receita17.jpg",
+      "ingredientesReceita": [
+        "500g patinho moído",
+        "1 ovo",
+        "1 cenoura ralada",
+        "1/2 xícara de farelo de aveia",
+        "Brócolis picado a gosto",
+        "Sal e temperos a gosto."    
+      ],
+      "modoPreparoReceita": [
+        "Misture todos os ingredientes e, então, dê o formato circular às almôndegas. Em seguida, é necessário armazenar no freezer. Só após o resfriamento a almôndega caseira pode ser levada ao forno (ou á AirFryer) a temperatura média (180°) por aproximadamente 30 minutos."
+      ],
+      "tempoDePreparo": "50min",
+      "custoReceita": 2
     }
   ]
 }
