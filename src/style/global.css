@@ -26,3 +26,13 @@ body {
     background-color: aliceblue;
 }
 
+body::-webkit-scrollbar {
+    /* Set the width of the scrollbar */
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    /* Set the color of the thumb */
+    background-color: rgb(253, 215, 145);
+}
+

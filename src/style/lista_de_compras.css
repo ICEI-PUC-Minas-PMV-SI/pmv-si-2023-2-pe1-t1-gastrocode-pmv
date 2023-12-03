@@ -28,7 +28,6 @@
 
 .favorita-info-item {
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 .favorita-receita-title {
@@ -46,6 +45,14 @@
 
 .remove-label {
     font-family: 'Montserrat', sans-serif;
+}
+
+.favorita-span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
 .favorita-button {
@@ -90,6 +97,19 @@
 .ingrediente-checkbox {
     display: flex;
     gap: 1rem;
+}
+
+.compra-checkbox-label {
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.ingrediente-checkbox input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #888;
 }
 
 @media screen and (max-width:850px) {

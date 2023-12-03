@@ -22,7 +22,7 @@
         <nav>
             <ul class="header-navbar-list">
 
-                <a href="livroreceitas.html">
+                <a href="receitas_favoritas.html">
                     <li class="navbar-list-item navbar-allow-hidden"> Meu Livro de Receitas </li>
                 </a>
                 <a href="lista_de_compras.html">
@@ -36,7 +36,13 @@
                 </a>
 
                 <div class="navbar-user">
-                    <img class="user-icon" src="../images/default-user-icon.jpg">
+                    <span class="header-username" id="headerNomeUsuario"></span>
+                    <script type="module">
+                        import getUser from "../js/crud/getUser.js";
+                        const usuario = await getUser();
+                        console.log(usuario)
+                        document.getElementById("headerNomeUsuario").innerText = `Bem vindo, ${usuario.nomeUsuario}`;
+                    </script>
                 </div>
 
                 <li class="navbar-list-item">
@@ -56,7 +62,7 @@
 
                 <div class="dropdown-container">
                     <div class="dropdown-content">
-                        <a href="livroreceitas.html">
+                        <a href="receitas_favoritas.html">
                             <li class="dropdown-item"> Meu Livro de Receitas </li>
                         </a>
                         <a href="lista_de_compras.html">
@@ -91,7 +97,8 @@
         </div>
 
         <section class="pesquisa-container">
-            <input class="pesquisa-input" type="search" placeholder="Nome da receita">
+            <input class="pesquisa-input" id="pesquisaInput" type="search" placeholder="Nome da receita">
+            <button class="pesquisa-button" id="pesquisaButton">Pesquisar</button>
         </section>
 
         <section class="receitas-container" id="receitaContainer"></section>

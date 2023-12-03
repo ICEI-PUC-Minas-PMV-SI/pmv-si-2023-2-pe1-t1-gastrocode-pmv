@@ -45,7 +45,7 @@
 .navbar-list-item {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -61,10 +61,11 @@
     cursor: pointer;
 }
 
-.user-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.header-username {
+    font-family: 'Montserrat', sans-serif;
+    user-select: none;
+    cursor: auto;
+    color: tomato;
 }
 
 .logout-svg {

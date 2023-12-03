@@ -1,19 +1,24 @@
 {
   "usuarios": [
     {
-      "nomeUsuario": "teste",
-      "emailUsuario": "teste@gmail.com",
-      "senhaUsuario": "12345",
+      "nomeUsuario": "Grégory",
+      "emailUsuario": "gregorystevao19@gmail.com",
+      "senhaUsuario": "gastrocode",
       "receitasFavoritas": [
-        0,
+        1,
+        2
+      ],
+      "listaCompras": [
+        2,
         1
       ],
+      "imagemPerfil": {},
       "id": 1
     }
   ],
   "receitas": [
     {
-      "id": 0,
+      "id": 1,
       "nomeReceita": "Salmão grelhado light",
       "imagemReceita": "../images/receitas-img/receita0.jpg",
       "ingredientesReceita": [
@@ -31,7 +36,7 @@
       "custoReceita": 3
     },
     {
-      "id": 1,
+      "id": 2,
       "nomeReceita": "Panqueca de banana e aveia",
       "imagemReceita": "../images/receitas-img/receita1.jpg",
       "ingredientesReceita": [

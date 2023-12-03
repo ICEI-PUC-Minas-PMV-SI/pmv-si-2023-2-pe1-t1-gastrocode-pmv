@@ -37,30 +37,7 @@
 .modal::-webkit-scrollbar-thumb {
     /* Set the color of the thumb */
     background-color: rgb(253, 215, 145);
-    /* Round the corners of the thumb */
-    border-radius: 5px;
 }
-
-/* .modal--closed {
-    opacity: 0;
-    transition: opacity .5s ease;
-}
-
-.modal--opened {
-    opacity: 1;
-    animation: opacity .5s ease-in-out;
-} */
-
-@keyframes opacity {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 
 .modal-header-container {
     display: flex;

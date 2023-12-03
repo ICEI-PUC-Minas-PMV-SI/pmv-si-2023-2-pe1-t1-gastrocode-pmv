@@ -37,11 +37,15 @@
     cursor: pointer;
 }
 
-.remove-label {
+.favorita-span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
-.favorita-button {
+.favorita-remove-button {
     width: 25px;
     height: 25px;
     fill: red;

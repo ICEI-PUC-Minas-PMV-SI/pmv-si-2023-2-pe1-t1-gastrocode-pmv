@@ -7,6 +7,8 @@ function cadastrarUsuario(e) {
         nomeUsuario: document.getElementById('nomeUsuario').value,
         emailUsuario: document.getElementById('emailUsuario').value,
         senhaUsuario: document.getElementById('senhaUsuario').value,
+        receitasFavoritas: [],
+        listaCompras: []
     })
 
     if (document.getElementById('senhaUsuario').value === document.getElementById('senhaUsuarioConfirmed').value) {

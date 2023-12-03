@@ -1,15 +1,25 @@
 import getUser from "./getUser.js";
+
 const body = document.querySelector('body');
-const receitaContainer = document.getElementById('receitaContainer');
+const pesquisaInput = document.getElementById('pesquisaInput');
+const pesquisaButton = document.getElementById('pesquisaButton');
+
+pesquisaButton.addEventListener('click', loadReceitas)
 
 
 function loadReceitas() {
+    const nomePesquisado = pesquisaInput.value.toLowerCase().trim();
+
     fetch('http://localhost:3000/receitas')
         .then(response => response.json())
         .then(receitas => {
-            const receitasHTML = receitas.map((receita) => {
+            const receitasFiltradas = receitas.filter(receita =>
+                receita.nomeReceita.toLowerCase().includes(nomePesquisado)
+            );
+
+            const receitasHTML = receitasFiltradas.map(receita => {
                 return `
-                    <div class="receita-item">
+                    <div class="receita-item-container">
                         <img class="receita-item-imagem" src="${receita.imagemReceita}">
                         <div class="receita-nome-container">
                             <p class="receita-item-nome">${receita.nomeReceita}</p>
@@ -26,9 +36,9 @@ function loadReceitas() {
 
             const buttons = document.querySelectorAll('.receita-item-button');
             buttons.forEach((button, index) => {
-                button.addEventListener('click', () => openReceitaCard(receitas[index]));
+                button.addEventListener('click', () => openReceitaCard(receitasFiltradas[index]));
             });
-        })
+        });
 }
 
 function openReceitaCard(receita) {
@@ -80,7 +90,7 @@ function openReceitaCard(receita) {
                         >
                             <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
                         </svg>
-                        <span class="button-add-text">Add. Lista de Compras</span>
+                        <span id="listaComprasButton" class="button-add-text">Add. Lista de Compras</span>
                     </div>
                 </div>
                 
@@ -98,6 +108,11 @@ function openReceitaCard(receita) {
     const receitasFavoritasButton = modal.querySelector('#receitasFavoritasButton');
     receitasFavoritasButton.addEventListener('click', () => {
         adicionarReceitaFavorita(receita.id);
+    })
+
+    const listaComprasButton = modal.querySelector('#listaComprasButton');
+    listaComprasButton.addEventListener('click', () => {
+        adicionarListaCompras(receita.id);
     })
 
     body.appendChild(modal);
@@ -118,7 +133,6 @@ function getReceitaCusto(custo) {
 
 async function adicionarReceitaFavorita(id) {
     const usuario = await getUser();
-    console.log(usuario);
 
     if (usuario) {
         if (!usuario.receitasFavoritas.includes(id)) {
@@ -131,6 +145,23 @@ async function adicionarReceitaFavorita(id) {
     } else {
         alert('Sessão expirada! Faça login novamente.');
     }
+}
+
+async function adicionarListaCompras(id) {
+    const usuario = await getUser();
+
+    if (usuario) {
+        if (!usuario.listaCompras.includes(id)) {
+            usuario.listaCompras.push(id);
+            await atualizarListaCompras(usuario, usuario.id);
+            alert('Receita adicionada à lista de compras!');
+        } else {
+            alert('A receita já está na lista de compras do usuário.');
+        }
+    } else {
+        alert('Sessão expirada! Faça login novamente.');
+    }
+
 }
 
 async function atualizarReceitasFavoritas(usuario, userId) {
@@ -146,18 +177,18 @@ async function atualizarReceitasFavoritas(usuario, userId) {
     });
 }
 
-function getCookie(cookieName) {
-    const name = `${cookieName}=`;
-    const decodedCookie = decodeURIComponent(document.cookie);
-    const cookieArray = decodedCookie.split(';');
+async function atualizarListaCompras(usuario, userId) {
+    await fetch(`http://localhost:3000/usuarios/${userId}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+            ...usuario,
+            listaCompras: usuario.listaCompras
+        })
+    });
 
-    for (let i = 0; i < cookieArray.length; i++) {
-        let cookie = cookieArray[i].trim();
-        if (cookie.indexOf(name) === 0) {
-            return cookie.substring(name.length, cookie.length);
-        }
-    }
-    return null;
 }
 
 loadReceitas();
