@@ -14,6 +14,18 @@
       ],
       "imagemPerfil": {},
       "id": 1
+    },
+    {
+      "nomeUsuario": "Viviane",
+      "emailUsuario": "vivianepertence@gmail.com",
+      "senhaUsuario": "gastrocode",
+      "receitasFavoritas": [
+        1
+      ],
+      "listaCompras": [
+        1
+      ],
+      "id": 2
     }
   ],
   "receitas": [
