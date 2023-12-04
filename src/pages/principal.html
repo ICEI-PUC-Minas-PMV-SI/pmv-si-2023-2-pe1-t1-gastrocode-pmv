@@ -15,10 +15,12 @@
 <body id="body">
 
     <header class="header content-header">
+
         <div class="logo-container">
             <img class="gastrocode-icon" src="../images/GastroCode-logo.png">
             <h1 class="header-title">GastroCode</h1>
         </div>
+
         <nav>
             <ul class="header-navbar-list">
 
@@ -100,6 +102,18 @@
             <input class="pesquisa-input" id="pesquisaInput" type="search" placeholder="Nome da receita">
             <button class="pesquisa-button" id="pesquisaButton">Pesquisar</button>
         </section>
+
+        <div id="adviceContainer" class="advice-container">
+            <script>
+                fetch('https://api.adviceslip.com/advice')
+                    .then(response => response.json())
+                    .then(data => {
+                        const advice = data.slip.advice;
+                        const adviceContainer = document.getElementById('adviceContainer');
+                        adviceContainer.innerText = advice;
+                    })
+            </script>
+        </div>
 
         <section class="receitas-container" id="receitaContainer"></section>
         

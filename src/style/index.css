@@ -158,3 +158,9 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width:555px) {
+    .header-username {
+        display: none;
+    }
+}

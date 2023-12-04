@@ -24,8 +24,8 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    width: 500px;
-    max-height: 550px;
+    width: 600px;
+    max-height: 610px;
     overflow: auto;
 }
 
