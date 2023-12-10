@@ -1,6 +1,6 @@
 async function getUser() {
     const userId = getCookie('userId');
-    const usuariosResponse = await fetch('http://localhost:3000/usuarios');
+    const usuariosResponse = await fetch('https://gastrocode-jsonserver.vercel.app/usuarios');
     const usuarios = await usuariosResponse.json();
     const usuario = findUserById(usuarios, userId); // Renomeei a função para evitar conflitos
     return usuario;

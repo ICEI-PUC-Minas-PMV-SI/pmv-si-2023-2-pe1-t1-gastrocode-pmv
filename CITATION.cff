@@ -1,29 +1,21 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: GastroCode
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Amilar Costa
+    given-names: Grégory Stevão
+  - family-names: Sodré Moraes
+    given-names: Andressa
+  - family-names: Aparecida Campos de Oliveira Pertence
+    given-names: Viviane 
+  - name-suffix: Professor
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: Bastos de Paula
+    given-names: Hugo
 keywords:
-  -
-  -
-repository-code:
+  - Receitas saudáveis
+  - Saúde
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-gastrocode-pmv/tree/main
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2023-12-10

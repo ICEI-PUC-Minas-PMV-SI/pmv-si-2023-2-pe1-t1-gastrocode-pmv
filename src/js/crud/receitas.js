@@ -10,7 +10,7 @@ pesquisaButton.addEventListener('click', loadReceitas)
 function loadReceitas() {
     const nomePesquisado = pesquisaInput.value.toLowerCase().trim();
 
-    fetch('http://localhost:3000/receitas')
+    fetch('https://gastrocode-jsonserver.vercel.app/receitas')
         .then(response => response.json())
         .then(receitas => {
             const receitasFiltradas = receitas.filter(receita =>
@@ -165,7 +165,7 @@ async function adicionarListaCompras(id) {
 }
 
 async function atualizarReceitasFavoritas(usuario, userId) {
-    await fetch(`http://localhost:3000/usuarios/${userId}`, {
+    await fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${userId}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
@@ -178,7 +178,7 @@ async function atualizarReceitasFavoritas(usuario, userId) {
 }
 
 async function atualizarListaCompras(usuario, userId) {
-    await fetch(`http://localhost:3000/usuarios/${userId}`, {
+    await fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${userId}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",

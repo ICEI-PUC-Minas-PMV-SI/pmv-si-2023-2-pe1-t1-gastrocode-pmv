@@ -11,7 +11,7 @@ function loginUsuario(e) {
     })
 
 
-    fetch('http://localhost:3000/usuarios')
+    fetch('https://gastrocode-jsonserver.vercel.app/usuarios')
         .then((response) => response.json())
         .then((usuarios) => {
             const usuarioAutenticado = usuarios.find(

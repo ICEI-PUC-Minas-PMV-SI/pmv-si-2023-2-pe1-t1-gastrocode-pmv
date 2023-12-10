@@ -13,7 +13,7 @@ function cadastrarUsuario(e) {
 
     if (document.getElementById('senhaUsuario').value === document.getElementById('senhaUsuarioConfirmed').value) {
         ''
-        fetch('http://localhost:3000/usuarios', {
+        fetch('https://gastrocode-jsonserver.vercel.app/usuarios', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -23,7 +23,7 @@ async function alterarNome() {
     const usuario = await getUser();
 
     if(usuario && usuario.nomeUsuario === nomeAtual.value && novoNome.value === confirmarNovoNome.value) {
-        fetch(`http://localhost:3000/usuarios/${usuario.id}`, {
+        fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${usuario.id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -46,7 +46,7 @@ async function alterarEmail() {
 
 
     if(usuario && usuario.emailUsuario === emailAtual.value && novoEmail.value === confirmarNovoEmail.value) {
-        fetch(`http://localhost:3000/usuarios/${usuario.id}`, {
+        fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${usuario.id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -68,7 +68,7 @@ async function alterarSenha() {
     const usuario = await getUser();
 
     if(usuario && usuario.senhaUsuario === senhaAtual.value && novaSenha.value === confirmarNovaSenha.value) {
-        fetch(`http://localhost:3000/usuarios/${usuario.id}`, {
+        fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${usuario.id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -93,7 +93,7 @@ async function alterarImagemPerfil() {
         const formData = new FormData();
         formData.append('imagemPerfil', imagemPerfil.files[0]);
 
-        fetch(`http://localhost:3000/usuarios/${usuario.id}`, {
+        fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${usuario.id}`, {
             method: 'PATCH',
             body: formData
         })

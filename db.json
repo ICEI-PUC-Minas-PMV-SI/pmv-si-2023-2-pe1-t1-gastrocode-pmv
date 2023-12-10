@@ -10,8 +10,7 @@
       ],
       "listaCompras": [
         2,
-        1,
-        16
+        1
       ],
       "imagemPerfil": {},
       "id": 1
@@ -35,15 +34,20 @@
       "emailUsuario": "teste@gmail.com",
       "senhaUsuario": "12345",
       "receitasFavoritas": [
-        1,
-        7,
-        6,
-        16
+        9
       ],
       "listaCompras": [
         4
       ],
       "id": 3
+    },
+    {
+      "nomeUsuario": "gregoryteste",
+      "emailUsuario": "gregoryteste@gmail.com",
+      "senhaUsuario": "12345",
+      "receitasFavoritas": [],
+      "listaCompras": [],
+      "id": 4
     }
   ],
   "receitas": [

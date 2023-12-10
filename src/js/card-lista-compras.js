@@ -7,7 +7,7 @@ async function loadListaCompras() {
     const usuario = await getUser();
 
     if (usuario) {
-        fetch('http://localhost:3000/receitas')
+        fetch('https://gastrocode-jsonserver.vercel.app/receitas')
             .then(response => response.json())
             .then(receitas => {
                 receitas.map((receita) => {
@@ -85,7 +85,7 @@ async function removerReceitaListaCompras(id) {
 }
 
 async function atualizarListaCompras(usuario, userId) {
-    await fetch(`http://localhost:3000/usuarios/${userId}`, {
+    await fetch(`https://gastrocode-jsonserver.vercel.app/usuarios/${userId}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
