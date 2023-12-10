@@ -45,3 +45,5 @@ O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
 > - Não é necessário que a face de algum integrante do grupo apareça na gravação.
 > - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
 
+Link para o vídeo de apresentação do GastroCode: https://www.youtube.com/watch?v=jQFFeF25hfY
+
