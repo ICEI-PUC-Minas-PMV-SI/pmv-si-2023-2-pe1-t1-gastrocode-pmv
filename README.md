@@ -23,9 +23,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Como Rodar a Aplicação
 
-- Preferencialmente utilize o VSCode
-- Abra o arquivo do projeto dentro do editor
-- Instale e rode a extensão LiveServer
+- Acesse: https://pmv-si-2023-2-pe1-t1-gastrocode-pmv.vercel.app/
 
 # Planejamento
 
