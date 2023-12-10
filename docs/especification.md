@@ -23,12 +23,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário consulte as receitas cadastradas no site               | ALTA  | |
-|RF-002| Permitir que o usuário pesquise receitas por alimentos ou nome dos pratos     | ALTA  | |
+|RF-001| Permitir que o usuário crie conta no site               | ALTA  | |
+|RF-002| Permitir que o usuário consulte as receitas cadastradas no site               | ALTA  | |
 |RF-003| Permitir que o usuário consulte as receitas favoritas                         | ALTA  | |
-|RF-004| Exibir informações nutricionais de cada receita                               | ALTA  | |
+|RF-004| Exibir informações de preparo sobre cada receita                             | ALTA  | |
 |RF-005| Exibir indicativos de custo de preparo para cada receita (Baixo, Médio, Alto) | ALTA  | |
-|RF-007| Gerar listas de compras a partir das receitas selecionadas                    | MÉDIA | |
+|RF-006| Gerar listas de compras a partir das receitas selecionadas                    | MÉDIA | |
 
 
 ### Requisitos não Funcionais
@@ -39,18 +39,3 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O sistema deve ser compatível com navegadores modernos            | ALTA | 
 |RNF-003| Fornecer suporte de dúvidas através da aba de ajuda               | ALTA | 
 
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)

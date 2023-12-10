@@ -57,7 +57,6 @@ async function loadListaCompras() {
 }
 
 function getIngredientes(ingredientes) {
-    console.log(ingredientes)
     return ingredientes.map(ingrediente => `
         <div class="ingrediente-checkbox">
             <input class="favorita-info-item" type="checkbox" id="${ingrediente}">

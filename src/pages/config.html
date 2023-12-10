@@ -33,7 +33,6 @@
                     <script type="module">
                         import getUser from "../js/crud/getUser.js";
                         const usuario = await getUser();
-                        console.log(usuario)
                         document.getElementById("headerNomeUsuario").innerText = `Bem vindo, ${usuario.nomeUsuario}`;
                     </script>
                 </div>

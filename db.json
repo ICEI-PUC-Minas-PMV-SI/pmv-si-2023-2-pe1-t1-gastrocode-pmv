@@ -29,6 +29,21 @@
         8
       ],
       "id": 2
+    },
+    {
+      "nomeUsuario": "teste",
+      "emailUsuario": "teste@gmail.com",
+      "senhaUsuario": "12345",
+      "receitasFavoritas": [
+        1,
+        7,
+        6,
+        16
+      ],
+      "listaCompras": [
+        4
+      ],
+      "id": 3
     }
   ],
   "receitas": [
