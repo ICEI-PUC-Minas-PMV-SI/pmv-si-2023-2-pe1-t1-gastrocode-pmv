@@ -37,7 +37,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | Na aba "Menu de Receitas", o usuário informa no campo de pesquisa o nome de uma receita que está buscando.
 **Requisitos associados** | RF-002
-**Resultado esperado** | Retorno filtrado das receitas que possuem um nome que coincida com o texto informado pelo usuário no campo de pesquisa
+**Resultado esperado** | Retorno filtrado das receitas que possuem um nome que coincida com o texto informado pelo usuário no campo de pesquisa.
 **Dados de entrada** | Inserção de um nome de uma recita cadastrada no site.
 **Resultado obtido** | Sucesso.
 
@@ -45,16 +45,16 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | Na aba "Menu de Receitas", o usuário, ao clicar no botão '+' de um card de receita e acessar a visualização expandida da receita, clica no botão 'Adicionar às Receitas Favoritas'.
 **Requisitos associados** | RF-003
-**Resultado esperado** | Mensagem de sucesso acerca da correta adição da receita ao menu de receitas favoritas
-**Dados de entrada** | Correta realização do procedimento
+**Resultado esperado** | Mensagem de sucesso acerca da correta adição da receita ao menu de receitas favoritas.
+**Dados de entrada** | Correta realização do procedimento.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT04 - Consultar receitas favoritas**
  :--------------: | ------------
-**Procedimento**  | "Na aba "Meu Livro de Receitas", o usuário verifica se as receitas previamente adicionadas como favoritas estão corretamente listadas
+**Procedimento**  | "Na aba "Meu Livro de Receitas", o usuário verifica se as receitas previamente adicionadas como favoritas estão corretamente listadas.
 **Requisitos associados** | RF-003
-**Resultado esperado** | Listagem correta de todas as receitas adicionadas como favoritas
-**Dados de entrada** | Correta realização do procedimento
+**Resultado esperado** | Listagem correta de todas as receitas adicionadas como favoritas.
+**Dados de entrada** | Correta realização do procedimento.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT05 - Consultar informações de preparo da receita**
@@ -67,42 +67,42 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT06 - Consultar informações de custo**
  :--------------: | ------------
-**Procedimento**  | Na aba "Meu Livro de Receitas", o usuário, ao clicar no botão '+' de um card de receita e acessar a visualização expandida da receita, verifica as informações de custo da receita
+**Procedimento**  | Na aba "Meu Livro de Receitas", o usuário, ao clicar no botão '+' de um card de receita e acessar a visualização expandida da receita, verifica as informações de custo da receita.
 **Requisitos associados** | RF-005
-**Resultado esperado** | Apresentação de um indicativo de custo da receita, podendo ser "$ - Baixo", "$$ - Médio", "$$$ - Alto"
-**Dados de entrada** | Correta realização do procedimento
+**Resultado esperado** | Apresentação de um indicativo de custo da receita, podendo ser "$ - Baixo", "$$ - Médio", "$$$ - Alto".
+**Dados de entrada** | Correta realização do procedimento.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT07 - Adicionar receita a lista de compra**
  :--------------: | ------------
 **Procedimento**  | Na aba "Meu Livro de Receitas", o usuário, ao clicar no botão '+' de um card de receita e acessar a visualização expandida da receita, clica no botão 'Add. Lista de Compras'.
 **Requisitos associados** | RF-006
-**Resultado esperado** | Mensagem de sucesso acerca da correta adição da receita ao menu de lista de compras
-**Dados de entrada** | Correta realização do procedimento
+**Resultado esperado** | Mensagem de sucesso acerca da correta adição da receita ao menu de lista de compras.
+**Dados de entrada** | Correta realização do procedimento.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT08 - Consultar Lista de Compras**
  :--------------: | ------------
 **Procedimento**  | Na aba "Meu Livro de Receitas", o usuário, ao clicar no botão '+' de um card de receita e acessar a visualização expandida da receita, clica no botão 'Add. Lista de Compras'.
 **Requisitos associados** | RF-006
-**Resultado esperado** | Listagem correta de todas as receitas adicionadas na lista de compras
-**Dados de entrada** | Correta realização do procedimento
+**Resultado esperado** | Listagem correta de todas as receitas adicionadas na lista de compras.
+**Dados de entrada** | Correta realização do procedimento.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT09 - Responsividade para mobile**
  :--------------: | ------------
-**Procedimento**  | Ao diminuir o tamanho da tela, os elementos da aplicação devem ser redimensionados, adaptando-se às novas dimensões
+**Procedimento**  | Ao diminuir o tamanho da tela, os elementos da aplicação devem ser redimensionados, adaptando-se às novas dimensões.
 **Requisitos associados** | RNF-001
-**Resultado esperado** | Correta adaptação dos elementos
-**Dados de entrada** | Diminuição das dimensões da tela
+**Resultado esperado** | Correta adaptação dos elementos.
+**Dados de entrada** | Diminuição das dimensões da tela.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT10 - Suporte a dúvidas**
  :--------------: | ------------
-**Procedimento**  | O usuário deve acessar a aba "Ajuda" para sanar as dúvidas relacionadas a utilização da aplicação
+**Procedimento**  | O usuário deve acessar a aba "Ajuda" para sanar as dúvidas relacionadas a utilização da aplicação.
 **Requisitos associados** | RNF-003
-**Resultado esperado** | Correta listagem de dúvidas comuns sobre a aplicação
-**Dados de entrada** | Correta realização do procedimento
+**Resultado esperado** | Correta listagem de dúvidas comuns sobre a aplicação.
+**Dados de entrada** | Correta realização do procedimento.
 **Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
@@ -177,16 +177,16 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja encontrar uma receita que utilize um ingrediente específico, por exemplo: "frango". Encontre essa receita na aplicação  |
-| 2             | Você é uma pessoa que deseja adicionar uma receita que gostou a lista de favoritas. Vá até a receita desejada e adicione a mesma para o seu livro de receitas.   |
-| 3             | Você é uma pessoa que deseja encontrar a lista dos itens necessários para o preparo das receitas. Verifique as informações da receita para econtrar os ingredientes necessários.   |
-| 4             | Você é uma pessoa que deseja encontrar receitas de baixo. Vá até uma receita que agrade e verifique a informação de custo.   |
+| 1             | Você é uma pessoa que deseja encontrar uma receita que utilize um ingrediente específico, por exemplo: "frango". Encontre essa receita na aplicação . |
+| 2             | Você é uma pessoa que deseja adicionar uma receita que gostou da lista de favoritas. Vá até a receita desejada e adicione a mesma para o seu livro de receitas.   |
+| 3             | Você é uma pessoa que deseja encontrar a lista dos itens necessários para o preparo das receitas. Verifique as informações da receita para encontrar os ingredientes necessários.   |
+| 4             | Você é uma pessoa que deseja encontrar receitas de baixo custo. Vá até uma receita que agrade e verifique a informação de custo.   |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Você é uma pessoa que deseja encontrar uma receita que utilize um ingrediente específico, por exemplo: "frango". Encontre essa receita na aplicação
+Cenário 1: Você é uma pessoa que deseja encontrar uma receita que utilize um ingrediente específico, por exemplo: "frango". Encontre essa receita na aplicação.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -204,10 +204,7 @@ Você é uma pessoa que deseja encontrar uma receita que utilize um ingrediente 
     - "Por causa do campo de pesquisa fica fácil encontrar a receita"
     - "O campo de pesquisa centralizado na tela ajudou muito na hora de procurar pelo nome."
 
-
-
-
-Cenário 3:  Você é uma pessoa que deseja encontrar a lista dos itens necessários para o preparo das receitas. Verifique as informações da receita para econtrar os ingredientes necessários.
+Cenário 2:  Você é uma pessoa que deseja adicionar uma receita que gostou da lista de favoritas. Vá até a receita desejada e adicione a mesma para o seu livro de receitas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -225,6 +222,8 @@ Cenário 3:  Você é uma pessoa que deseja encontrar a lista dos itens necessá
     - "É bem simples adicionar a receita as favoritas já que o botão fica bem destacado."
     - "Achei tranquilo adicionar como favorito, todo o caminho foi bem intuitivo."
 
+Cenário 3:  Você é uma pessoa que deseja encontrar a lista dos itens necessários para o preparo das receitas. Verifique as informações da receita para encontrar os ingredientes necessários.
+
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | Luis       | SIM             | 5                    | 3.81 segundos                          |
@@ -241,6 +240,8 @@ Cenário 3:  Você é uma pessoa que deseja encontrar a lista dos itens necessá
     - "Foi fácil achar a lista dos ingredientes, quando expande a receita eles já aparecem de primeira"
     - "Muito tranquilo achar os ingredientes da receita."
 
+Cenário 4: Você é uma pessoa que deseja encontrar receitas de baixo custo. Vá até uma receita que agrade e verifique a informação de custo.
+
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | Luis       | SIM             | 5                    | 4.57 segundos                          |
@@ -253,9 +254,9 @@ Cenário 3:  Você é uma pessoa que deseja encontrar a lista dos itens necessá
 
     Comentários dos usuários:
     
-    - "O custo também foi fácil de achar, o ícone do dinheiro deixa fácil de identificar"
+    - "O custo também foi fácil de achar, o ícone do dinheiro deixa fácil de identificar."
     - "O símbolo do dolár deixou mais fácil achar o custo da receita."
-    - "Foi fácil encontrar o custo, fica bem separado lá em baixo e o cifrão chama mais fácil a atenção"
+    - "Foi fácil encontrar o custo, fica bem separado lá em baixo e o cifrão chama mais fácil a atenção."
 
 
 
@@ -268,7 +269,7 @@ Ao serem destacados pontos referentes as escolhas de design, gera uma segurança
 
 A pequena diferença de tempo entre o usuário especialista e os usuários do teste trazem segurança sobre a facilidade de aprendizagem de uso da aplicação.
 
-Para finalizar, a aplicação conseguiu nota máxima na avaliação de satisfação e na taxa de sucesso, demosntrado ser divertida de usar e acima de tudo bem prática
+Para finalizar, a aplicação conseguiu nota máxima na avaliação de satisfação e na taxa de sucesso, demonstrando ser divertida de usar e acima de tudo bem prática.
 
 
 
