@@ -8,7 +8,7 @@ GastroCode
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+GastroCode trata-se de um sistema voltado para usuários com rotinas corridas e que buscam uma mudaça de hábitos alimentares, fornecendo receitas saudáveis juntamente com informações adicionais sobre cada prato.
 
 ## Integrantes
 
