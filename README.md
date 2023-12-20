@@ -1,6 +1,6 @@
 # Título do Projeto
 
-## GastroCode
+GastroCode
 
 `CURSO: Sistemas de Informação`
 
